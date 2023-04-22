@@ -15,14 +15,14 @@ Jestem Wiola. Zdecydowałam się na udział w projekcie, ponieważ potrzebuję o
 
 ## Subtask 4
 
-Aplikacja Scouts Test ma za zadanie tworzenie profilu zawodnika piłki nożnej, a następnie na podstawie meczy, w których bierze udział tworzone są raporty dotyczące jego zachowania, atrybutów i skuteczności. Każdy raport można ocenić, co potem przedkłada się na średnią ocenę zawodnika. Każdy dodany do aplikacji zawodnik jest porównywany z innymi graczami. Można wyszukać graczy na podstawie konkternych cech - imię/nazwisko.....
+Aplikacja Scouts Test ma za zadanie tworzenie profilu zawodnika piłki nożnej, a następnie na podstawie meczy, w których bierze udział tworzone są raporty dotyczące jego zachowania, atrybutów i skuteczności. Każdy raport można ocenić, co potem przedkłada się na średnią ocenę zawodnika. Każdego dodanego do aplikacji zawodnika moż na porównywnać z innymi graczami. Można wyszukać graczy na podstawie konkternych cech - imię/nazwisko.....
 
 Funkcjonalności:
 * Logowanie do systemu - służy do uzyskania dostępu do funkcji aplikacji - intuicyjne, bardzo prosty wygląd, 
 
 * Dodanie nowego gracza - zakłada profil dla danego zawodnkika, uwzględnia jego dane osobowe, cechy i umiejętności, umożliwia zapisanie jego danych kontaktowych oraz wstawienia linków do profilu na fb, filmów yt i innych stron - intuicyjna, ale niezabezpieczona przed złą wolą osoby zakładającej profil - szczegółowe informacje znajdują się przy akapicie z błędami,
 
-* Przeglądanie meczy - opcja pojawia się po wybraniu zawodnika, zawiera listę meczy, w których brał udział zawodnik, z tego panelu można stworzyć raport prezentujący zachowanie gracza na boisku - intuicyjne jeśli chodzi o samo dodanie meczu, jednak panel z boiskiem jest mniej zrozumiały, jak również funkcja nie jest zabezpieczona przez złą wolą użytkownika, szczegółowe informacje znajdują się przy akapicie z błędami,
+* Przeglądanie meczy - opcja pojawia się po wybraniu zawodnika, zawiera listę meczy, w których brał udział zawodnik, z tego panelu można stworzyć raport prezentujący zachowanie gracza na boisku - intuicyjne jeśli chodzi o samo dodanie meczu, jednak panel z boiskiem jest mniej zrozumiały, jak również funkcja nie jest zabezpieczona przez złą wolą użytkownika, szczegółowe informacje znajdują się w akapicie z błędami,
 
 * Przeglądanie raportów - opcja pojawia się po wybraniu zawodnika, zawiera listę raportów zapisanych dla gracza oraz możliwość edycji każdego - dodanie raportu jest intuicyjne, jednak poruszanie się po arkuszu już nie jest, zwłaszcza gdy chodzi o mapę z działaniami zawodnika,
 
@@ -46,7 +46,7 @@ Błędy:
 * umożliwia dodanie ujemnego lub zbyt wysokiego wzrostu (np. 600cm), ujemnej wagi, kolor koszulki, który jest cyfrą lub ujemny, gracz może mieć ponad sto lat lub być nieletni,
 * ograniczenie czasu trwania meczu - możliwość dodania meczy o bardzo długim czasie trwania,
 * mapa - rzut rożny możliwy ze środka boiska, można dodać kilka odległych akcji w bardzo krótkim odstępie czasu,
-* przy zakładaniu profilu zawodnika możliwe jest dodanie imienia składającego się ze znaków, które nie występują w imionach oraz bardzo długich informacji, które podczas wyszukiwania nie są zwijane/skaracane,
+* przy zakładaniu profilu zawodnika możliwe jest dodanie imienia składającego się ze znaków, które nie występują w imionach oraz długich informacji, które podczas wyszukiwania nie są zwijane/skaracane,
 * dodano kilku graczy, jednak nie przypisano im meczy ani nie wygenerowano raportów - gracze nie zostali zapisani mimo pozytywnej informacji zwrotnej z systemu, z można jednak stworzyć pusty raport bez oceny zawodnika i komentarzy, który figuruje na liście,
 * przy generowaniu raportu z meczu czasem tworzy się duplikat - nie ma możliwości jego usunięcia,
 * pole 'województwo' jest wymagane do stworzenia raportu jednak możliwe jest dodanie zawodnika, dla którego ten atrybut jest pusty,
@@ -58,6 +58,9 @@ Błędy:
 * drużyna zawodnika i przeciwna mogą być takie same,
 * odpowiedzi z serwera HTTP informują o użyciu przestażałych parametrów,
 * w przypadku generowania widoku dla smartfona pasek poleceń ładnie się chowa, jednak po obróceniu ekranu ta funkcja znika i nie można jej przywołać,
+
+
+**poszukać więcej, sprawdzić widok na smartfonie, dodawanie/usówanie raportów, czy ingerencja w mecz po stworzeniu raportu generuje w nim zmianę, czy można dodać raport bez meczu, czy można założyć 2 profile dla 1 zawodnika - czy jest opcja usunięcia duplikatu, print jak działa, generowanie pliku jak działa, może by tak podać informacje o kontuzjach, zdjęcie zawodnika, dodać wybór graczy do porównania, bo w tej chwili ta opcja kuleje,**
 
 
 
