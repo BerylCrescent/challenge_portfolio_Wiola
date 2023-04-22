@@ -15,7 +15,7 @@ Jestem Wiola. Zdecydowałam się na udział w projekcie, ponieważ potrzebuję o
 
 ## Subtask 4
 
-Aplikacja Scouts Test ma za zadanie tworzenie profilu zawodnika piłki nożnej, a następnie na podstawie meczy, w których bierze udział tworzone są raporty dotyczące jego zachowania, atrybutów i skuteczności. Każdy raport można ocenić, co potem przedkłada się na średnią ocenę zawodnika. Każdego dodanego do aplikacji zawodnika moż na porównywnać z innymi graczami. Można wyszukać graczy na podstawie konkternych cech - imię/nazwisko.....
+Aplikacja Scouts Test ma za zadanie tworzenie profilu zawodnika piłki nożnej, a następnie na podstawie meczy, w których bierze udział tworzone są raporty dotyczące jego zachowania, atrybutów i skuteczności. Każdy raport można ocenić, co potem przedkłada się na średnią ocenę zawodnika. Każdego dodanego do aplikacji zawodnika można porównywnać z innymi graczami. Można wyszukać graczy na podstawie konkternych cech - imię/nazwisko.....
 
 Funkcjonalności:
 * Logowanie do systemu - służy do uzyskania dostępu do funkcji aplikacji - intuicyjne, bardzo prosty wygląd, 
@@ -60,7 +60,7 @@ Błędy:
 * w przypadku generowania widoku dla smartfona pasek poleceń ładnie się chowa, jednak po obróceniu ekranu ta funkcja znika i nie można jej przywołać,
 
 
-**poszukać więcej, sprawdzić widok na smartfonie, dodawanie/usówanie raportów, czy ingerencja w mecz po stworzeniu raportu generuje w nim zmianę, czy można dodać raport bez meczu, czy można założyć 2 profile dla 1 zawodnika - czy jest opcja usunięcia duplikatu, print jak działa, generowanie pliku jak działa, może by tak podać informacje o kontuzjach, zdjęcie zawodnika, dodać wybór graczy do porównania, bo w tej chwili ta opcja kuleje,**
+**poszukać więcej, sprawdzić widok na smartfonie, dodawanie/usówanie raportów, czy ingerencja w mecz po stworzeniu raportu generuje w nim zmianę, czy można dodać raport bez meczu, czy można założyć 2 profile dla 1 zawodnika - czy jest opcja usunięcia duplikatu, print jak działa, generowanie pliku jak działa, może by tak podać informacje o kontuzjach, zdjęcie zawodnika, dodać wybór graczy do porównania, bo w tej chwili ta opcja kuleje, nasz profil**
 
 
 
