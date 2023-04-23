@@ -36,12 +36,11 @@ Funkcjonalności:
 
 
 
-Interfejs jest prosty, mało porywający, surowy. Przemieszczanie się pomiędzy głównymi opcjami nie stanowi problemu, aplikacja wygląda poprawnie zarówno na ekranie komputera jak i smartfona z pewnymi zastrzeżeniami, nie budzi jednak mojej sympatii. Aplikacja nie dostosowuje się do domyślnego koloru mojego systemu czy przeglądarki, razi i męczy oczy przy dłuższym korzystaniu. Nie widzę opcji, które pomogły by korzystać z niej osobom słabowidzącym/niedowidzącym, np. zmiany wielkości liter czy ich kontrastu w stosunku do pozostałych elementów na stronie. Dodanie gracza możliwe jest tylko ze strony głównej, w panelu linki pomocnicze - dodaj gracza, nie znalazłam jednak tej opcji nigdzie indziej. Chciałabym mieć możliwość skorzystania z panelu, w którym znajdować się będą jedynie gracze, mecze i raporty dodane przeze mnie - brak tej opcji dziwi mnie, zwłaszcza, że gdy dodaje się lub modyfikuje wielu zawodników łatwo stracić z oczu wszystkie dokonane przez siebie zmiany. Obawiam się, że gdyby aplikacja w takim stanie została przedstawiona klientowi jako efekt końcowy prac, mogłaby spotkać się z negatywną oceną, a nawet jego złością.
+Interfejs jest prosty, mało porywający, surowy. Przemieszczanie się pomiędzy głównymi opcjami nie stanowi problemu, aplikacja wygląda poprawnie zarówno na ekranie komputera jak i smartfona z pewnymi zastrzeżeniami, nie budzi jednak mojej sympatii. Aplikacja nie dostosowuje się do domyślnego koloru mojego systemu czy przeglądarki, razi i męczy oczy przy dłuższym korzystaniu. Nie widzę opcji, które pomogły by korzystać z niej osobom słabowidzącym/niedowidzącym, np. zmiany wielkości liter czy ich kontrastu w stosunku do pozostałych elementów na stronie. Dodanie gracza możliwe jest tylko ze strony głównej, w panelu linki pomocnicze - dodaj gracza, nie znalazłam jednak tej opcji nigdzie indziej. Chciałabym mieć możliwość skorzystania z panelu, w którym znajdować się będą jedynie gracze, mecze i raporty dodane przeze mnie - brak tej opcji dziwi mnie, zwłaszcza, że gdy dodaje się lub modyfikuje wielu zawodników łatwo stracić z oczu wszystkie dokonane przez siebie zmiany. Obawiam się, że gdyby aplikacja w takim stanie została przedstawiona klientowi jako efekt końcowy prac, mogłaby spotkać się z negatywną oceną klienta.
 
-Aplikacja jest intuicyjna do momentu tworzenia raportów. Opcie dostepne przy rozgrywaniu meczu nie są podpisane i mimo prostego przekazu potrzebowałam chwili aby zrozumieć, konieczne jest uruchomienie zegara, jak również przeskakiwanie do konkretnych minut w trakcie gry. 
+Aplikacja jest intuicyjna do momentu tworzenia raportów. Opcje dostępne przy rozgrywaniu meczu nie są podpisane i mimo prostego przekazu potrzebowałam chwili aby zrozumieć, że konieczne jest uruchomienie zegara, jak również istnieje opcja przeskakiwania do konkretnych minut w trakcie gry. Krótki samouczek lub FAQ były by jak najbardziej na miejscu. Opcje wyszukiwania, które pojawiają się w nagłówku przy panelu przeglądania zawodników na początku wydawały mi się bardzo ubogie, do momentu gdy zauważyłam przycisk filtrowania - uważam, że wymaga on większego wyróżnienia na stronie.
 
-
-Błędy:
+Błędy/nieprawidłowości, które zwróciły moją uwagę:
 * Dodawanie nowego gracza - wykrywa zły adres e-mail, ale za krótki nr telefonu już nie,
 * Dodawanie nowego gracza - umożliwia dodanie ujemnego lub zbyt wysokiego wzrostu (np. 600cm), ujemnej wagi, kolor koszulki, który jest cyfrą lub ujemny, gracz może mieć ponad sto lat lub być nieletni,
 * Dodawanie meczu - ograniczenie czasu trwania meczu - możliwość dodania meczy o bardzo długim czasie trwania, ujemnym czasie trwania,
@@ -57,15 +56,15 @@ Błędy:
 * Zmiana języka - niektóre polecenia nie ulegają translacji - save, submit, clear, print - konieczne zachowanie pewnej konsekwencji,
 * Raporty - w przypadku meczu 2:1 istnieje możliwość przypisania wszystkich goli dla naszego zawodnika - czy aplikacja rozróżnia bramkę samobójczą od zwykłej? mimo wszystko skuteczność 100%...
 * Raporty - drużyna zawodnika i przeciwna mogą być takie same,
-* odpowiedzi z serwera HTTP informują o użyciu przestażałych parametrów,
-* w przypadku generowania widoku dla smartfona pasek poleceń ładnie się chowa, jednak po obróceniu ekranu ta funkcja znika i nie można jej przywołać, to samo dotyczy zmiany rozmiaru okna przeglądarki,
-* generowany plik csv jest mało czytelny,
+* Odpowiedzi z serwera HTTP informują o użyciu przestażałych parametrów,
+* W przypadku generowania widoku dla smartfona pasek poleceń ładnie się chowa, jednak po obróceniu ekranu ta funkcja znika i nie można jej przywołać, to samo dotyczy zmiany rozmiaru okna przeglądarki,
+* Generowany plik csv jest mało czytelny,
 * Przeglądanie zawodników - wydruku informacji dla wybranych graczy wygląda inaczej niż niż w aplikacji - przypomina to widok z ekranu smartfona, zajmuje więcej miejsca niż tabelka na ekranie monitora,
 
 
 
 
-**poszukać więcej, sprawdzić widok na smartfonie,  nasz profil, 
+**poszukać więcej, sprawdzić widok na smartfonie**
 
 
 
