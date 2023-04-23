@@ -36,7 +36,7 @@ Funkcjonalności:
 
 
 
-Interfejs jest prosty, mało porywający. Przemieszczanie się pomiędzy głównymi opcjami jest sprawne, aplikacja wygląda poprawnie zarówno na ekranie komputera jak i smartfona z pewnymi zastrzeżeniami. 
+Interfejs jest prosty, mało porywający, surowy. Przemieszczanie się pomiędzy głównymi opcjami nie stanowi problemu, aplikacja wygląda poprawnie zarówno na ekranie komputera jak i smartfona z pewnymi zastrzeżeniami, nie budzi jednak mojej sympatii. Aplikacja nie dostosowuje się do domyślnego koloru mojego systemu czy przeglądarki, razi i męczy oczy przy dłuższym korzystaniu. Nie widzę opcji, które pomogły by korzystać z niej osobom słabowidzącym/niedowidzącym, np. zmiany wielkości liter czy ich kontrastu w stosunku do pozostałych elementów na stronie. Dodanie gracza możliwe jest tylko ze strony głównej, w panelu linki pomocnicze - dodaj gracza, nie znalazłam jednak tej opcji nigdzie indziej. Chciałabym mieć możliwość skorzystania z panelu, w którym znajdować się będą jedynie gracze, mecze i raporty dodane przeze mnie - brak tej opcji dziwi mnie, zwłaszcza, że gdy dodaje się lub modyfikuje wielu zawodników łatwo stracić z oczu wszystkie dokonane przez siebie zmiany. Obawiam się, że gdyby aplikacja w takim stanie została przedstawiona klientowi jako efekt końcowy prac, mogłaby spotkać się z negatywną oceną, a nawet jego złością.
 
 Aplikacja jest intuicyjna do momentu tworzenia raportów. Opcie dostepne przy rozgrywaniu meczu nie są podpisane i mimo prostego przekazu potrzebowałam chwili aby zrozumieć, konieczne jest uruchomienie zegara, jak również przeskakiwanie do konkretnych minut w trakcie gry. 
 
@@ -64,7 +64,8 @@ Błędy:
 
 
 
-**poszukać więcej, sprawdzić widok na smartfonie, dodawanie/usówanie raportów,  nasz profil, dodanie max na mapie, usówanie z mapy**
+
+**poszukać więcej, sprawdzić widok na smartfonie,  nasz profil, 
 
 
 
