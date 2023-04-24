@@ -18,15 +18,25 @@ Jestem Wiola. Zdecydowałam się na udział w projekcie, ponieważ potrzebuję o
 Aplikacja Scouts Test ma za zadanie tworzenie profilu zawodnika piłki nożnej, a następnie na podstawie rozegranych przez niego meczy, tworzone są raporty. Każdy mecz można w raporcie można ocenić, co potem przedkłada się na średnią ocenę zawodnika. Każdego dodanego do aplikacji zawodnika można porównywnać z innymi graczami. Istnieje możliwość wyszukania graczy na podstawie konkternych cech - imię/nazwisko, wiek, pozycja, wiek ocena.  
 
 Funkcjonalności:
-* Logowanie do systemu - służy do uzyskania dostępu do funkcji aplikacji - bardzo prosty wygląd, oprócz nazwy brak jest jakichkolwiek informacji dotyczących aplikacji, u której bram się znajdujemy czy ekran powitania, domyślam się, gdzie zaprowadzi mnie podanie loginu oraz hasła i w zasadzie to wszystko,
+* Logowanie do systemu - służy do uzyskania dostępu do funkcji aplikacji - bardzo prosty wygląd, oprócz nazwy brak jest jakichkolwiek informacji dotyczących aplikacji, u której bram się znajdujemy czy ekran powitania. Domyślam się, gdzie zaprowadzi mnie podanie loginu oraz hasła, są wymagane przez aplikację a ich brak skutkuje odmową dostępu. 
 
-* Dodanie nowego gracza - zakłada profil dla danego zawodnkika, uwzględnia jego dane osobowe, cechy i umiejętności, umożliwia zapisanie jego danych kontaktowych oraz wstawienia linków do profilu na fb, filmów yt i innych stron - intuicyjna, ale niezabezpieczona przed złą wolą osoby zakładającej profil - szczegółowe informacje znajdują się przy akapicie z błędami, uważam że uwzględnienie informacji o przebytych kontuzjach czy możliwość dodania zdjęcia zawodnika wzbogaciłoby profil, jak również uatrakcyjniło surowy widok aplikacji,
+* Dodanie nowego gracza - zakłada profil dla danego zawodnika, uwzględnia jego dane osobowe, cechy i umiejętności, umożliwia zapisanie jego danych kontaktowych oraz wstawienia linków do profilu na fb, filmów yt i innych stron - intuicyjna, ale niezabezpieczona przed złą wolą osoby zakładającej profil - szczegółowe informacje znajdują się przy akapicie z błędami. Uważam że uwzględnienie informacji o przebytych kontuzjach czy możliwość dodania zdjęcia zawodnika wzbogaciłoby profil, jak również uatrakcyjniło surowy widok aplikacji,
 
-* Przeglądanie meczy - opcja pojawia się po wybraniu zawodnika, zawiera listę meczy, w których brał udział zawodnik, z tego panelu można stworzyć raport prezentujący zachowanie gracza na boisku - intuicyjne jeśli chodzi o samo dodanie meczu, jednak panel z boiskiem jest mniej zrozumiały, jak również funkcja nie jest zabezpieczona przez złą wolą użytkownika, szczegółowe informacje znajdują się w akapicie z błędami,
+* Przeglądanie meczy - opcja pojawia się po wybraniu zawodnika. Zawiera listę meczy, w których brał udział zawodnik. Z tego panelu można stworzyć raport prezentujący zachowanie gracza na boisku - intuicyjne jeśli chodzi o samo dodanie meczu, jednak panel z boiskiem jest mniej zrozumiały, jak również funkcja nie jest zabezpieczona przez złą wolą użytkownika. Szczegółowe informacje znajdują się w akapicie z błędami,
 
-* Przeglądanie raportów - opcja pojawia się po wybraniu zawodnika, zawiera listę raportów zapisanych dla gracza oraz możliwość edycji każdego - dodanie raportu jest intuicyjne, jednak poruszanie się po arkuszu już nie jest, zwłaszcza gdy chodzi o mapę z działaniami zawodnika,
+* Przeglądanie raportów - opcja pojawia się po wybraniu zawodnika. Zawiera listę raportów zapisanych dla gracza oraz możliwość edycji każdego - dodanie raportu jest intuicyjne, jednak poruszanie się po arkuszu już nie jest, zwłaszcza gdy chodzi o mapę z działaniami zawodnika,
 
-* Przeglądanie zawodników - wyświetla listę zawodników zapisanych w aplikacji, pozwala na wygenerowanie i zapis pliku oraz wydruk - nie wszystkie jej elementy są intuicyjne - w nagłówku pojawia się panel umożliwiający wyszukiwanie zawodnika, klawisz enter służy do aktywacji polecenia jednak lupa przy panelu nie działa - ta funkcja jest łatwiej dostrzeglana mimo iż filtrowanie działa na podobnej zasadzie i jest lepszą wersją tej funkcji, nie jest jednak dostatecznie wyróżniona - znajduje się na końcu łańcuszka poleceń oznaczonych szarym kolorem; dodałanym możliwość wybrania strony, na którą chcę przejść ręcznie i możliwość zmiany liczby zawodników wyświetlanych na stronie, przydatną opcją byłoby również ręczne wybranie graczy do porównania,
+* Przeglądanie zawodników - wyświetla listę zawodników zapisanych w aplikacji, pozwala na wygenerowanie i zapis pliku oraz wydruk - nie wszystkie jej elementy są intuicyjne - w nagłówku pojawia się panel umożliwiający wyszukiwanie zawodnika, klawisz enter służy do aktywacji polecenia jednak lupa przy panelu nie działa,
+
+* Download CSV - generuje plik, w którym zapisani są wybrani zawodnicy, możliwy do otwarcia za pośrednictwem programu Excel. Opcja intuicyjna, jednak plik jest mało czytelny,
+
+* Print - opcja wydruku wybranych zawodników. Intuicyjna, jednak nie jestem zadowolona ze sposobu w jakim dane rozmieszczone są na wydruku - tabela jest rozwlekła, 
+
+![image](https://user-images.githubusercontent.com/128975245/234106629-f811c9d6-335d-4c92-aa6f-edada4eed640.png)
+
+* View columns - daje użytkownikowi możliwość wyboru, które z atrybutów są wyświetlane w zestawieniu, intuicyjne, 
+
+* Filter Table - działa na podobnej zasadzie jak wyszukiwanie i jest lepszą wersją tej funkcji, nie jest jednak dostatecznie wyróżniona - znajduje się na końcu łańcuszka poleceń oznaczonych szarym kolorem. Dodałabym możliwość wybrania strony, na którą chcę przejść ręcznie i możliwość zmiany liczby zawodników wyświetlanych na stronie. Przydatną opcją byłoby również ręczne wybranie graczy do porównania,
 
 * Zmiana języka - służy do przetłumaczenia strony, oferuje języki Polski oraz Angielski - intuicyjna, jednak nie wszystkie elementy strony podlegają translacji, co należy poprawić,
 
@@ -36,7 +46,7 @@ Funkcjonalności:
 
 
 
-Interfejs jest prosty, mało porywający, surowy. Przemieszczanie się pomiędzy głównymi opcjami nie stanowi problemu, aplikacja wygląda poprawnie zarówno na ekranie komputera jak i smartfona z pewnymi zastrzeżeniami, nie budzi jednak mojej sympatii. Aplikacja nie dostosowuje się do domyślnego koloru mojego systemu czy przeglądarki, razi i męczy oczy przy dłuższym korzystaniu. Nie widzę opcji, które pomogły by korzystać z niej osobom słabowidzącym/niedowidzącym, np. zmiany wielkości liter czy ich kontrastu w stosunku do pozostałych elementów na stronie. Dodanie gracza możliwe jest tylko ze strony głównej, w panelu linki pomocnicze - dodaj gracza, nie znalazłam jednak tej opcji nigdzie indziej. Chciałabym mieć możliwość skorzystania z panelu, w którym znajdować się będą jedynie gracze, mecze i raporty dodane przeze mnie - brak tej opcji dziwi mnie, zwłaszcza, że gdy dodaje się lub modyfikuje wielu zawodników łatwo stracić z oczu wszystkie dokonane przez siebie zmiany. Obawiam się, że gdyby aplikacja w takim stanie została przedstawiona klientowi jako efekt końcowy prac, mogłaby spotkać się z negatywną oceną klienta.
+Interfejs jest prosty, mało porywający, surowy. Przemieszczanie się pomiędzy głównymi opcjami nie stanowi problemu, aplikacja wygląda poprawnie zarówno na ekranie komputera jak i smartfona z pewnymi zastrzeżeniami, nie budzi jednak mojej sympatii. Aplikacja nie dostosowuje się do domyślnego koloru mojego systemu czy przeglądarki, razi i męczy oczy przy dłuższym korzystaniu. Nie widzę opcji, które pomogły by korzystać z niej osobom słabowidzącym/niedowidzącym, np. zmiany wielkości liter czy ich kontrastu w stosunku do pozostałych elementów na stronie. Dodanie gracza możliwe jest tylko ze strony głównej, w panelu linki pomocnicze - dodaj gracza, nie znalazłam jednak tej opcji nigdzie indziej. Chciałabym mieć możliwość skorzystania z panelu, w którym znajdować się będą jedynie gracze, mecze i raporty dodane przeze mnie - brak tej opcji dziwi mnie, zwłaszcza, że gdy dodaje się lub modyfikuje wielu zawodników łatwo stracić z oczu wszystkie dokonane przez siebie zmiany.
 
 Aplikacja jest intuicyjna do momentu tworzenia raportów. Opcje dostępne przy rozgrywaniu meczu nie są podpisane i mimo prostego przekazu potrzebowałam chwili aby zrozumieć, że konieczne jest uruchomienie zegara, jak również istnieje opcja przeskakiwania do konkretnych minut w trakcie gry. Krótki samouczek lub FAQ były by jak najbardziej na miejscu. Opcje wyszukiwania, które pojawiają się w nagłówku przy panelu przeglądania zawodników na początku wydawały mi się bardzo ubogie, do momentu gdy zauważyłam przycisk filtrowania - uważam, że wymaga on większego wyróżnienia na stronie.
 
@@ -58,7 +68,6 @@ Błędy/nieprawidłowości, które zwróciły moją uwagę:
 * Raporty - drużyna zawodnika i przeciwna mogą być takie same,
 * Odpowiedzi z serwera HTTP informują o użyciu przestażałych parametrów,
 * W przypadku generowania widoku dla smartfona pasek poleceń ładnie się chowa, jednak po obróceniu ekranu ta funkcja znika i nie można jej przywołać, to samo dotyczy zmiany rozmiaru okna przeglądarki,
-* Generowany plik csv jest mało czytelny,
 * Przeglądanie zawodników - wydruku informacji dla wybranych graczy wygląda inaczej niż niż w aplikacji - przypomina to widok z ekranu smartfona, zajmuje więcej miejsca niż tabelka na ekranie monitora,
 
 
