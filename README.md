@@ -26,7 +26,7 @@ Funkcjonalności:
 
 * Przeglądanie raportów - opcja pojawia się po wybraniu zawodnika. Zawiera listę raportów zapisanych dla gracza oraz możliwość edycji każdego - dodanie raportu jest intuicyjne, jednak poruszanie się po arkuszu już nie jest, zwłaszcza gdy chodzi o mapę z działaniami zawodnika,
 
-* Przeglądanie zawodników - wyświetla listę zawodników zapisanych w aplikacji, pozwala na wygenerowanie i zapis pliku oraz wydruk - nie wszystkie jej elementy są intuicyjne - w nagłówku pojawia się panel umożliwiający wyszukiwanie zawodnika, klawisz enter służy do aktywacji polecenia jednak lupa przy panelu nie działa,
+* Przeglądanie zawodników - wyświetla listę zawodników zapisanych w aplikacji, pozwala na wygenerowanie i zapis pliku oraz wydruk - nie wszystkie jej elementy są intuicyjne - w nagłówku pojawia się panel umożliwiający wyszukiwanie informacji, klawisz enter służy do aktywacji polecenia, jednak lupa przy panelu nie działa. W odpowiedzi na zapytanie otrzymujemy listę rekordów zawierających wyszukiwane słowo. W przypadku panelu przeglądania dodałabym możliwość wybrania strony, na którą chcę przejść ręcznie i możliwość zmiany liczby zawodników wyświetlanych na stronie. Przydatną opcją byłoby również ręczne wybranie graczy do porównania,
 
 * Download CSV - generuje plik, w którym zapisani są wybrani zawodnicy, możliwy do otwarcia za pośrednictwem programu Excel. Opcja intuicyjna, jednak plik jest mało czytelny,
 
@@ -36,7 +36,7 @@ Funkcjonalności:
 
 * View columns - daje użytkownikowi możliwość wyboru, które z atrybutów są wyświetlane w zestawieniu, intuicyjne, 
 
-* Filter Table - działa na podobnej zasadzie jak wyszukiwanie i jest lepszą wersją tej funkcji, nie jest jednak dostatecznie wyróżniona - znajduje się na końcu łańcuszka poleceń oznaczonych szarym kolorem. Dodałabym możliwość wybrania strony, na którą chcę przejść ręcznie i możliwość zmiany liczby zawodników wyświetlanych na stronie. Przydatną opcją byłoby również ręczne wybranie graczy do porównania,
+* Filter Table - działa na podobnej zasadzie jak wyszukiwanie i jest lepszą wersją tej funkcji, nie jest jednak dostatecznie wyróżniona - znajduje się na końcu łańcuszka poleceń oznaczonych szarym kolorem. Nasze zapytanie dodatkowo możemy doprecyzować o informację, którego atrybutu dotyczy.
 
 * Zmiana języka - służy do przetłumaczenia strony, oferuje języki Polski oraz Angielski - intuicyjna, jednak nie wszystkie elementy strony podlegają translacji, co należy poprawić,
 
