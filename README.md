@@ -15,7 +15,7 @@ Jestem Wiola. Zdecydowałam się na udział w projekcie, ponieważ potrzebuję o
 
 ## Subtask 4
 
-Aplikacja Scouts Test ma za zadanie tworzenie profilu zawodnika piłki nożnej, a następnie na podstawie rozegranych przez niego meczy, tworzone są raporty. Każdy mecz można w raporcie można ocenić, co potem przedkłada się na średnią ocenę zawodnika. Każdego dodanego do aplikacji zawodnika można porównywnać z innymi graczami. Istnieje możliwość wyszukania graczy na podstawie konkternych cech - imię/nazwisko, wiek, pozycja, wiek ocena.  
+Aplikacja Scouts Test ma za zadanie tworzenie profilu zawodnika piłki nożnej, a następnie na podstawie rozegranych przez niego meczy, tworzone są raporty. Każdy mecz można w raporcie ocenić, co potem przedkłada się na średnią ocenę zawodnika. Każdego dodanego do aplikacji zawodnika można porównywnać z innymi graczami. Istnieje możliwość wyszukania graczy na podstawie konkternych cech - imię/nazwisko, wiek, pozycja, wiek ocena.  
 
 Funkcjonalności:
 * Logowanie do systemu - służy do uzyskania dostępu do funkcji aplikacji - bardzo prosty wygląd, oprócz nazwy brak jest jakichkolwiek informacji dotyczących aplikacji, u której bram się znajdujemy czy ekran powitania. Domyślam się, gdzie zaprowadzi mnie podanie loginu oraz hasła, są wymagane przez aplikację a ich brak skutkuje odmową dostępu. 
@@ -68,7 +68,36 @@ Błędy/nieprawidłowości, które zwróciły moją uwagę:
 * Raporty - drużyna zawodnika i przeciwna mogą być takie same,
 * Odpowiedzi z serwera HTTP informują o użyciu przestażałych parametrów,
 * W przypadku generowania widoku dla smartfona pasek poleceń ładnie się chowa, jednak po obróceniu ekranu ta funkcja znika i nie można jej przywołać, to samo dotyczy zmiany rozmiaru okna przeglądarki,
-* Przeglądanie zawodników - wydruku informacji dla wybranych graczy wygląda inaczej niż niż w aplikacji - przypomina to widok z ekranu smartfona, zajmuje więcej miejsca niż tabelka na ekranie monitora,
+* Przeglądanie zawodników - wydruku informacji dla wybranych graczy wygląda inaczej niż niż w aplikacji - przypomina to widok z ekranu smartfona, zajmuje więcej miejsca niż tabelka na ekranie monitora.
+
+
+
+
+# Task 2
+
+## Subtask 1
+
+```diff
+@@ Pisanie przypadków testowych na podstawie User Story @@
+```
+
+## Subtask 2
+
+```diff
++ Pisanie przypadków testowych na podstawie własnych doświadczeń
+```
+
+## Subtask 3
+
+```diff
+- Dlaczego piszemy przypadki testowe?
+```
+
+## Subtask 4
+
+```diff
+! goJIRA
+```
 
 
 
