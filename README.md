@@ -89,9 +89,9 @@ Błędy/nieprawidłowości, które zwróciły moją uwagę:
 
 ## Subtask 3
 
-```diff
-- Dlaczego piszemy przypadki testowe?
-```
+Przypadki testowe pomagają uporządkować pracę przy tworzeniu aplikacji/oprogramowania. Po pierwsze, przekazują nam informację o tym jak ma być zaprojektowany dany element systemu oraz czy produkt w obecnym stadium rozwoju spełnia postawione przed nim wymagania. Po drugie, ich obecność pozwala wychwycić błędy, które mogły się wedrzeć do projektu, a każdy napisany przypadek testowy pokrywa kolejne obszary aplikacji pomagając tym samym odszukać je w odpowiednim czasie. 
+
+Moja pierwsza styczność z testowaniem to w zasadzie anegdota, którą usłyszałam na studiach. Dotyczyła przeprowadzanego przypadku testowego dla pewnej gry - __*'przez 8 godzin wsiadam i zsiadam z konia, za każdym razem postać trzyma w dłoni inną broń.'*__ Brzmi jak nudny banał... A jednak powtarzanie tej czynności pozwoli zewryfikować wiele elementów, między innymi znaleźć i naprawić ewentualne bugi, które mogłyby zepsuć nie tylko rozgrywkę, ale i reputację studia.
 
 ## Subtask 4
 
