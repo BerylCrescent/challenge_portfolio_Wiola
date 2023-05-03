@@ -75,7 +75,7 @@ Błędy/nieprawidłowości, które zwróciły moją uwagę:
 
 # Task 2
 
-[Link do Google Drive](https://drive.google.com/drive/u/1/folders/1VWhxpWYF_y2U7KB0aApo47CPk2D4PEhT), na którym przechowywane są dokumenty dla tego zadania.
+[Link do Google Drive](https://drive.google.com/drive/u/1/folders/1VWhxpWYF_y2U7KB0aApo47CPk2D4PEhT), gdzie przechowywane są dokumenty dla tego zadania.
 
 ## Subtask 1
 
