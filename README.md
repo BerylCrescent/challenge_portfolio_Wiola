@@ -95,7 +95,7 @@ Moja pierwsza styczność z testowaniem to w zasadzie anegdota, którą usłysza
 ## Subtask 4
 
 ```diff
-! goJIRA
+! wygląda na to, że nie goJIRA
 ```
 
 
