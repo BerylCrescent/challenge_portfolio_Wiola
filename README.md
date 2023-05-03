@@ -75,17 +75,16 @@ Błędy/nieprawidłowości, które zwróciły moją uwagę:
 
 # Task 2
 
+[Link do Google Drive](https://drive.google.com/drive/u/1/folders/1VWhxpWYF_y2U7KB0aApo47CPk2D4PEhT), na którym przechowywane są dokumenty dla tego zadania.
+
 ## Subtask 1
 
-```diff
-@@ Pisanie przypadków testowych na podstawie User Story @@
-```
+Plik z zadaniem dostępny jest na moim Google Drive, [oto bezpośredni link.](https://docs.google.com/spreadsheets/d/1uk9exmNPu64m9j4kwZrtSerp0jeboThK/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true) Każdy Test Case to osobny arkusz: dla US_01 przygotowane są 3, dla US_02 przygotowałam 4. Identyfikator zbudowany jest z numeru User Story oraz numeru Test Case, np. US_01_01.
 
 ## Subtask 2
 
-```diff
-+ Pisanie przypadków testowych na podstawie własnych doświadczeń
-```
+Plik z zadaniem dostępny jest na moim Google Drive, [oto bezpośredni link.](https://docs.google.com/spreadsheets/d/1u9_vtEDoluSa3N1q1Yc0YjY_gDPyEbtm/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true) Każdy Test Case to osobny arkusz, a dla niniejszego zadania przygotowałam 22. Identyfikator zbudowany jest ze skrótu TC oraz numeru, np. TC_0001.
+
 
 ## Subtask 3
 
