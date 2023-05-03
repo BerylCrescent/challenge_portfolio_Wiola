@@ -100,9 +100,9 @@ Plik z zadaniem dostępny jest na moim Google Drive, oto bezpośredni link. Każ
 ! Uwaga !
 ```
 
-Do tego zadania został również zamieszczony plik - nagranie z pracy aplikacji pick.eat.up związane z TC_003. Nagranie to dokumentuje błąd, który zaobserwowałam (*właściwie, to 2 błędy, jak się później przypatrzyłam*) :
+Do tego zadania został również zamieszczony plik - nagranie z pracy aplikacji pick.eat.up związane z TC_003. [Nagranie](https://drive.google.com/file/d/1bhCO6x7zo3i2B4BKfMmzD174OBfgGIft/view?usp=sharing) dokumentuje błąd, który zaobserwowałam (*właściwie, to 2 błędy, jak się później przypatrzyłam*) , oraz kroki, które wykonałam aby je odtworzyć:
 * Po kliknięciu 'Sign out' aplikacja przenosi nas na ekran logowania by po sekundzie samoczynnie zalogować się ponownie - nie było tu mojej ingerencji,
-* Dolny panel rozpoczyna pracę po Polsku, po chwili natomiast zmienia język na ustawiony w aplikacji Angielski
+* Dolny panel rozpoczyna pracę po Polsku, po chwili natomiast, po interakcji z ekranem, zmienia język na ustawiony w aplikacji Angielski.
 
 
 
