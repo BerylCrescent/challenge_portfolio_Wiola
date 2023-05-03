@@ -83,7 +83,7 @@ Plik z zadaniem dostępny jest na moim Google Drive, [oto bezpośredni link.](ht
 
 ## Subtask 2
 
-Plik z zadaniem dostępny jest na moim Google Drive, [oto bezpośredni link.](https://docs.google.com/spreadsheets/d/1u9_vtEDoluSa3N1q1Yc0YjY_gDPyEbtm/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true) Każdy Test Case to osobny arkusz, a dla niniejszego zadania przygotowałam 22. Identyfikator zbudowany jest ze skrótu TC oraz numeru, np. TC_0001.
+Plik z zadaniem dostępny jest na moim Google Drive, [oto bezpośredni link.](https://docs.google.com/spreadsheets/d/1u9_vtEDoluSa3N1q1Yc0YjY_gDPyEbtm/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true) Każdy Test Case to osobny arkusz, a dla niniejszego zadania przygotowałam 22. Identyfikator zbudowany jest ze skrótu TC oraz numeru, np. TC_001.
 
 
 ## Subtask 3
@@ -94,9 +94,16 @@ Moja pierwsza styczność z testowaniem to w zasadzie anegdota, którą usłysza
 
 ## Subtask 4
 
+Plik z zadaniem dostępny jest na moim Google Drive, oto bezpośredni link. Każdy Test Case to osobny arkusz, a dla niniejszego zadania przygotowanych zostało 5. Identyfikator zbudowany jest ze sktótu TC oraz numeru, np. TC_001. 
+
 ```diff
-! wygląda na to, że nie goJIRA
+! Uwaga !
 ```
+
+Do tego zadania został również zamieszczony plik - nagranie z pracy aplikacji pick.eat.up związane z TC_003. Nagranie to dokumentuje błąd, który zaobserwowałam (*właściwie, to 2 błędy, jak się później przypatrzyłam*) :
+* Po kliknięciu 'Sign out' aplikacja przenosi nas na ekran logowania by po sekundzie samoczynnie zalogować się ponownie - nie było tu mojej ingerencji,
+* Dolny panel rozpoczyna pracę po Polsku, po chwili natomiast zmienia język na ustawiony w aplikacji Angielski
+
 
 
 
