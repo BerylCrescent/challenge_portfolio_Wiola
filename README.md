@@ -41,25 +41,25 @@ Funcionalities:
 
 * Matches - this option is avaliable after selecting a player, and contains a list of matches in which a player has participated. By using this panel we are able to create a report presenting the player's behaviour on the pitch. Intuitive, when it comes to adding a match. However, the pitch panel is a different story - not visible enough, less clear and enigmatic, also not protected against the user's ill will. For further details, see the error section.
 
-* Reports - opcja pojawia się po wybraniu zawodnika. Zawiera listę raportów zapisanych dla gracza oraz możliwość edycji każdego - dodanie raportu jest intuicyjne, jednak poruszanie się po arkuszu już nie jest, zwłaszcza gdy chodzi o mapę z działaniami zawodnika,
+* Reports - this option is avaliable after selecting a player, and contains a list of reports saved for each player, which we can later modify depending on his actions on the pitch. Adding a report is intuitive, however the sheet is not, probably requires more knowledge on the subject. 
 
-* Players - wyświetla listę zawodników zapisanych w aplikacji, pozwala na wygenerowanie i zapis pliku oraz wydruk - nie wszystkie jej elementy są intuicyjne - w nagłówku pojawia się panel umożliwiający wyszukiwanie informacji, klawisz enter służy do aktywacji polecenia, jednak lupa przy panelu nie działa. W odpowiedzi na zapytanie otrzymujemy listę rekordów zawierających wyszukiwane słowo. W przypadku panelu przeglądania dodałabym możliwość wybrania strony, na którą chcę przejść ręcznie i możliwość zmiany liczby zawodników wyświetlanych na stronie. Przydatną opcją byłoby również ręczne wybranie graczy do porównania,
+* Players - contains a list of players saved in the app. Not all of the elements are intuitive - a panel appears in the header allowing us to search for information, the command is activated by pressing the Enter key, yet you cannot use the mouse button to proceed, because the magnifying glass icon does not respond. In response to the query, we recieve a list of records containing the searched word. I believe that the browser panel would work better with the option to manually select a page and  the number of records presented on it. Also, it would be useful for us to manually select the players we want to compare,
 
-* Download CSV - generuje plik, w którym zapisani są wybrani zawodnicy, możliwy do otwarcia za pośrednictwem programu Excel. Opcja intuicyjna, jednak plik jest mało czytelny,
+* Download CSV - generates a file with selected players. Intuitive. Although the file can be opened via Excel, it is hardly readable,
 
-* Print - opcja wydruku wybranych zawodników. Intuicyjna, jednak nie jestem zadowolona ze sposobu w jakim dane rozmieszczone są na wydruku - tabela jest rozwlekła, 
+* Print - option to print selected players. Intuitive, however I'm not satisfied with the way the data is arranged on the printout - the page is overstuffed and yet there is little to no information, waste of paper,
 
 ![image](https://user-images.githubusercontent.com/128975245/234106629-f811c9d6-335d-4c92-aa6f-edada4eed640.png)
 
-* View columns - daje użytkownikowi możliwość wyboru, które z atrybutów są wyświetlane w zestawieniu, intuicyjne, 
+* View columns - enables the user to choose which attributes are displayed. Intuitive,
 
-* Filter Table - działa na podobnej zasadzie jak wyszukiwanie i jest lepszą wersją tej funkcji, nie jest jednak dostatecznie wyróżniona - znajduje się na końcu łańcuszka poleceń oznaczonych szarym kolorem. Nasze zapytanie dodatkowo możemy doprecyzować o informację, którego atrybutu dotyczy.
+* Filter Table - works in a simillar way to the search panel, but is a better version of this function and not highlited enough. It additionally helps us to clarify which particular attribute are we interested in finding,
 
-* Zmiana języka - służy do przetłumaczenia strony, oferuje języki Polski oraz Angielski - intuicyjna, jednak nie wszystkie elementy strony podlegają translacji, co należy poprawić,
+* Change language - used to translate the app into Polish or English. Intuitive, however not all elements are translated to Polish, which should be improved,
 
-* Sign out - służy do opuszczenia aplikacji - intuicyjna, nie ma potrzeby wprowadzania zmian, ewentualnie można dodać komunikat na zasadzie popup box na wypadek gdyby został kliknięty nieumyślnie 'Czy na pewno chcesz opuścić stronę?',
+* Sign out - used to exit the app - intuitive. Still, there are ways we can improve it, for example adding a popup message in case it was clicked unintentionally -  'Are you sure you want to leave us so soon?', happened to me not once, not twice...
 
-* Aktywność, linki pomocnicze, Scouts Panel - panel, na którym widać informację o ostatnio dodanych zawodnikach, meczach i raportach, możliwość skontaktowania się z dev team - intuicyjny, ułatwia przemieszczanie się w obrębie ostatnio dodanych elementów, bez konieczności ich ręcznego wyszukiwania,
+* Activity, Scouts Panel - panel, where you can see information about recently added players, matches, reports, modifications, where you have the ability to contact the dev team - intuitive, makes it easier to navigate within the recently added elements, without having to search for the manually.
 
 
 
