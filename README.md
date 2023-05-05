@@ -9,19 +9,19 @@
 
 ___
 
-<br>
 
 # Task 1
 
 ## Subtask 1
 
-9 punktów
+My test score = 9/10 points :+1:
 
 
 ## Subtask 3
 
-Cześć, 
-Jestem Wiola. Zdecydowałam się na udział w projekcie, ponieważ potrzebuję określić kierunek, w którym chcę się rozwijać. Doskwiera mi stagnacja związana z brakiem nowych możliwości na obecnym stanowisku, nie chcę jednak skoczyć na głębię bez uprzedniego przygotowania. Oczekuję, że kurs w praktyczny sposób przygotuje mnie do nowej pracy i wyzwań, które na mnie czekają, oraz że moja kreatywność znajdzie w nich pole do popisu. Wiem, że jak każdy zawód, ten też ma swoje plusy i minusy, ale jak to się mówi, kto nie ryzykuje szampana nie pije. 
+Hello, <br>
+My name is Wiola. I decided to participate in this project because I need to determine the direction in my personal advancement. Bothered by stagnation related mostly to lack of new opportunities in my current workplace, I wish to prepare myself for a deep dive into the unknown. I crave for new possibilities, and my creativity awaits the moment it can spread its wings. I expect that the course will prepare me for any upcoming challenges, but don't get me wrong... I know perfectly well that everything, every job, has it's very own bright and dark sides. Like they say, no risk no gain...
+
 
 *Wiola*
 
