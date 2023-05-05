@@ -7,6 +7,8 @@
 <br>
 <br>
 
+Translation in progress... I should end soon - but please be patient
+
 ___
 
 
@@ -28,20 +30,20 @@ My name is Wiola. I decided to participate in this project because I need to det
 
 ## Subtask 4
 
-Scouts Test App is designed to create a profile of a soccer player, then, based on matches played by the player, reports are created. Each match can be evaluated in the report, which then translates into the player's average rating. Each player added to the app's database can be compared with other players. What's more, we are able to search for players based on specific characteristics - name, surname, age, main position, raiting, etc.
+[Scouts Test](https://scouts-test.futbolkolektyw.pl/) is an app designed to create a profile of a soccer player, then, based on matches played by the player, reports are created. Each match can be evaluated in the report, which then translates into the player's average rating. Each player added to the app's database can be compared with other players. What's more, we are able to search for players based on specific characteristics - name, surname, age, main position, raiting, etc.
 
   
 
 Funcionalities:
-* Logowanie do systemu - służy do uzyskania dostępu do funkcji aplikacji - bardzo prosty wygląd, oprócz nazwy brak jest jakichkolwiek informacji dotyczących aplikacji, u której bram się znajdujemy czy ekran powitania. Domyślam się, gdzie zaprowadzi mnie podanie loginu oraz hasła, są wymagane przez aplikację a ich brak skutkuje odmową dostępu. 
+* Login to the app - it is used to access the features of the app - the apperance looks extremely simple, poor I should even say; apart from the name, there is no information about the app at which gates we are located, nor the welcome screen. Entering a valid login and password might lead me somewhere, but that's only my guess. Because they are required by the app, their absence results in denied access.
 
-* Dodanie nowego gracza - zakłada profil dla danego zawodnika, uwzględnia jego dane osobowe, cechy i umiejętności, umożliwia zapisanie jego danych kontaktowych oraz wstawienia linków do profilu na fb, filmów yt i innych stron - intuicyjna, ale niezabezpieczona przed złą wolą osoby zakładającej profil - szczegółowe informacje znajdują się przy akapicie z błędami. Uważam że uwzględnienie informacji o przebytych kontuzjach czy możliwość dodania zdjęcia zawodnika wzbogaciłoby profil, jak również uatrakcyjniło surowy widok aplikacji,
+* Adding a new player - creates a profile for a new player, which includes his personal data, features and skilss, enabling us to save his contact details and adding links to his social media profiles, YouTube films and other significant sites. Intuitive, although not protected against the user's ill will - more details on this topic avaliable in the error section. Personally, I believe that including information about past injuries or even adding a photo of the player would enrich the profile, as well as make the app's raw view a little more attractive.
 
-* Przeglądanie meczy - opcja pojawia się po wybraniu zawodnika. Zawiera listę meczy, w których brał udział zawodnik. Z tego panelu można stworzyć raport prezentujący zachowanie gracza na boisku - intuicyjne jeśli chodzi o samo dodanie meczu, jednak panel z boiskiem jest mniej zrozumiały, jak również funkcja nie jest zabezpieczona przez złą wolą użytkownika. Szczegółowe informacje znajdują się w akapicie z błędami,
+* Matches - this option is avaliable after selecting a player, and contains a list of matches in which a player has participated. By using this panel we are able to create a report presenting the player's behaviour on the pitch. Intuitive, when it comes to adding a match. However, the pitch panel is a different story - not visible enough, less clear and enigmatic, also not protected against the user's ill will. For further details, see the error section.
 
-* Przeglądanie raportów - opcja pojawia się po wybraniu zawodnika. Zawiera listę raportów zapisanych dla gracza oraz możliwość edycji każdego - dodanie raportu jest intuicyjne, jednak poruszanie się po arkuszu już nie jest, zwłaszcza gdy chodzi o mapę z działaniami zawodnika,
+* Reports - opcja pojawia się po wybraniu zawodnika. Zawiera listę raportów zapisanych dla gracza oraz możliwość edycji każdego - dodanie raportu jest intuicyjne, jednak poruszanie się po arkuszu już nie jest, zwłaszcza gdy chodzi o mapę z działaniami zawodnika,
 
-* Przeglądanie zawodników - wyświetla listę zawodników zapisanych w aplikacji, pozwala na wygenerowanie i zapis pliku oraz wydruk - nie wszystkie jej elementy są intuicyjne - w nagłówku pojawia się panel umożliwiający wyszukiwanie informacji, klawisz enter służy do aktywacji polecenia, jednak lupa przy panelu nie działa. W odpowiedzi na zapytanie otrzymujemy listę rekordów zawierających wyszukiwane słowo. W przypadku panelu przeglądania dodałabym możliwość wybrania strony, na którą chcę przejść ręcznie i możliwość zmiany liczby zawodników wyświetlanych na stronie. Przydatną opcją byłoby również ręczne wybranie graczy do porównania,
+* Players - wyświetla listę zawodników zapisanych w aplikacji, pozwala na wygenerowanie i zapis pliku oraz wydruk - nie wszystkie jej elementy są intuicyjne - w nagłówku pojawia się panel umożliwiający wyszukiwanie informacji, klawisz enter służy do aktywacji polecenia, jednak lupa przy panelu nie działa. W odpowiedzi na zapytanie otrzymujemy listę rekordów zawierających wyszukiwane słowo. W przypadku panelu przeglądania dodałabym możliwość wybrania strony, na którą chcę przejść ręcznie i możliwość zmiany liczby zawodników wyświetlanych na stronie. Przydatną opcją byłoby również ręczne wybranie graczy do porównania,
 
 * Download CSV - generuje plik, w którym zapisani są wybrani zawodnicy, możliwy do otwarcia za pośrednictwem programu Excel. Opcja intuicyjna, jednak plik jest mało czytelny,
 
@@ -55,7 +57,7 @@ Funcionalities:
 
 * Zmiana języka - służy do przetłumaczenia strony, oferuje języki Polski oraz Angielski - intuicyjna, jednak nie wszystkie elementy strony podlegają translacji, co należy poprawić,
 
-* Wylogowanie - służy do opuszczenia aplikacji - intuicyjna, nie ma potrzeby wprowadzania zmian, ewentualnie można dodać komunikat na zasadzie popup box na wypadek gdyby został kliknięty nieumyślnie 'Czy na pewno chcesz opuścić stronę?',
+* Sign out - służy do opuszczenia aplikacji - intuicyjna, nie ma potrzeby wprowadzania zmian, ewentualnie można dodać komunikat na zasadzie popup box na wypadek gdyby został kliknięty nieumyślnie 'Czy na pewno chcesz opuścić stronę?',
 
 * Aktywność, linki pomocnicze, Scouts Panel - panel, na którym widać informację o ostatnio dodanych zawodnikach, meczach i raportach, możliwość skontaktowania się z dev team - intuicyjny, ułatwia przemieszczanie się w obrębie ostatnio dodanych elementów, bez konieczności ich ręcznego wyszukiwania,
 
@@ -65,7 +67,7 @@ Interfejs jest prosty, mało porywający, surowy. Przemieszczanie się pomiędzy
 
 Aplikacja jest intuicyjna do momentu tworzenia raportów. Opcje dostępne przy rozgrywaniu meczu nie są podpisane i mimo prostego przekazu potrzebowałam chwili aby zrozumieć, że konieczne jest uruchomienie zegara, jak również istnieje opcja przeskakiwania do konkretnych minut w trakcie gry. Krótki samouczek lub FAQ były by jak najbardziej na miejscu. Opcje wyszukiwania, które pojawiają się w nagłówku przy panelu przeglądania zawodników, na początku wydawały mi się bardzo ubogie, do momentu gdy zauważyłam przycisk filtrowania - uważam, że wymaga on większego wyróżnienia na stronie.
 
-Błędy/nieprawidłowości, które zwróciły moją uwagę:
+Errors / irregularities, that caught my attention:
 * Dodawanie nowego gracza - wykrywa zły adres e-mail, ale za krótki nr telefonu już nie,
 * Dodawanie nowego gracza - umożliwia dodanie ujemnego lub zbyt wysokiego wzrostu (np. 600cm), ujemnej wagi, kolor koszulki, który jest cyfrą lub ujemny, gracz może mieć ponad sto lat lub być nieletni,
 * Dodawanie nowego gracza - przy zakładaniu profilu zawodnika możliwe jest dodanie imienia składającego się ze znaków, które nie występują w imionach,
@@ -90,15 +92,15 @@ Błędy/nieprawidłowości, które zwróciły moją uwagę:
 
 # Task 2
 
-[Link do Google Drive](https://drive.google.com/drive/u/1/folders/1VWhxpWYF_y2U7KB0aApo47CPk2D4PEhT), gdzie przechowywane są dokumenty dla tego zadania.
+[Link to my Google Drive](https://drive.google.com/drive/u/1/folders/1VWhxpWYF_y2U7KB0aApo47CPk2D4PEhT), where I store documentation for this task.
 
 ## Subtask 1
 
-Plik z zadaniem dostępny jest na moim Google Drive, [oto bezpośredni link.](https://docs.google.com/spreadsheets/d/1qcSn0Cj1NldS_lztPdzc3xv2Kka49Fbw/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Każdy Test Case to osobny arkusz: dla US_01 przygotowane są 3, dla US_02 przygotowałam 4. Identyfikator zbudowany jest z numeru User Story oraz numeru Test Case, np. US_01_01.
+The task file is avaliable on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1qcSn0Cj1NldS_lztPdzc3xv2Kka49Fbw/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet: for US_01 there are 3, and for US_02 I prepared 4. The ID consists of the User Story number and Test Case number, np. US_01_01.
 
 ## Subtask 2
 
-Plik z zadaniem dostępny jest na moim Google Drive, [oto bezpośredni link.](https://docs.google.com/spreadsheets/d/1rF0C0XI9mb8PAw-67_fDALD1EyknA0Jl/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Każdy Test Case to osobny arkusz, a dla niniejszego zadania przygotowałam 22. Identyfikator zbudowany jest ze skrótu TC oraz numeru, np. TC_001.
+The task file is avaliable on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1rF0C0XI9mb8PAw-67_fDALD1EyknA0Jl/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet, and for this task I prepared 22. The ID consists of the TC shortcut and a sequential number, np. TC_001.
 
 
 ## Subtask 3
@@ -109,10 +111,10 @@ Moja pierwsza styczność z testowaniem to w zasadzie anegdota, którą usłysza
 
 ## Subtask 4
 
-Plik z zadaniem dostępny jest na moim Google Drive, [oto bezpośredni link.](https://docs.google.com/spreadsheets/d/1ZhTASmDQJxGgv75x1_zy7pYDufsen0Ik/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Każdy Test Case to osobny arkusz, a dla niniejszego zadania przygotowanych zostało 5. Identyfikator zbudowany jest ze sktótu TC oraz numeru, np. TC_001. 
+The task file is avaliable on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1ZhTASmDQJxGgv75x1_zy7pYDufsen0Ik/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet, and for this task I prepared 5. The ID consists of the TC shortcut and a sequential number, np. TC_001. 
 
 ```diff
-! Uwaga !
+! Attention !
 ```
 
 Do tego zadania został również zamieszczony plik - nagranie z pracy aplikacji pick.eat.up związane z TC_003. [Nagranie](https://drive.google.com/file/d/1bhCO6x7zo3i2B4BKfMmzD174OBfgGIft/view?usp=sharing) dokumentuje błąd, który zaobserwowałam (*właściwie, to 2 błędy, jak się później przypatrzyłam*) , oraz kroki, które wykonałam aby je odtworzyć:
