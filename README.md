@@ -55,7 +55,7 @@ Funcionalities:
 
 * Filter Table - works in a simillar way to the search panel, but is a better version of this function and not highlited enough. It additionally helps us to clarify which particular attribute are we interested in finding,
 
-* Change language - used to translate the app into Polish or English. Intuitive, however not all elements are translated to Polish, which should be improved,
+* Language - used to translate the app into Polish or English. Intuitive, however not all elements are translated to Polish, which should be improved,
 
 * Sign out - used to exit the app - intuitive. Still, there are ways we can improve it, for example adding a popup message in case it was clicked unintentionally -  'Are you sure you want to leave us so soon?', happened to me not once, not twice...
 
@@ -69,26 +69,28 @@ Aplikacja jest intuicyjna do momentu tworzenia raportów. Opcje dostępne przy r
 
 Errors / irregularities, that caught my attention:
 * Adding a new player:
-    * wykrywa zły adres e-mail, ale za krótki nr telefonu już nie,
-    * umożliwia dodanie ujemnego lub zbyt wysokiego wzrostu (np. 600cm), ujemnej wagi, kolor koszulki, który jest cyfrą lub ujemny, gracz może mieć ponad sto lat lub być nieletni,
-    * przy zakładaniu profilu zawodnika możliwe jest dodanie imienia składającego się ze znaków, które nie występują w imionach,
-    * możliwe jest dodanie 2 graczy o dokładnie takich samych danych, aplikacja nie wykrywa, że dla zawodnika został już zapisany profil,
-    * dodano kilku graczy, jednak nie przypisano im meczy ani nie wygenerowano raportów - gracze nie zostali zapisani mimo pozytywnej informacji zwrotnej z systemu, z można jednak stworzyć pusty raport bez oceny zawodnika i komentarzy, który figuruje na liście,
-    * pole 'województwo' jest wymagane do stworzenia raportu jednak możliwe jest dodanie zawodnika, dla którego ten atrybut jest pusty,
-    * data urodzenia zawodnika i data meczu może być taka sama, dodaje mecze z przyszłości i bardzo dalekiej przeszłości, zawodnik może nie być pełnoletni (może urodzić się w dniu meczu, w którym gra), może także brać udział w meczu, przed swoim narodzeniem,
-    * dla gracza może być przypisana pozycja, której nie ma na boisku - np. Jedi,
-* Adding a match - ograniczenie czasu trwania meczu - możliwość dodania meczy o bardzo długim czasie trwania, ujemnym czasie trwania,
-* Rozgrywanie meczu:
-    * przy najechaniu kursorem na ikonę nie zawsze otrzymujemy informację, co ona robi, dotyczy to głównie mapy boiska, brak limitu czasowego dla meczu, synchronizacji z informacją o tym, która połowa jest aktualnie rozgrywana, mogę ustawić nawet wartość  mniejszą od 0,
-    * rzut rożny możliwy ze środka boiska, można dodać kilka odległych akcji w bardzo krótkim odstępie czasu, można określić inny wynik meczu w formularzu i dodać inną ilość goli na mapie, gol możliwy na środku boiska,
-* Zmiana języka - niektóre polecenia nie ulegają translacji - save, submit, clear, print - konieczne zachowanie pewnej konsekwencji,
-* Raporty:
-    * w przypadku meczu 2:1 istnieje możliwość przypisania wszystkich goli dla naszego zawodnika - czy aplikacja rozróżnia bramkę samobójczą od zwykłej? mimo wszystko skuteczność 100%...
-    * przy generowaniu raportu z meczu czasem tworzy się duplikat - nie ma możliwości jego usunięcia, można także umyślnie stworzyć kilka raportów do meczu,
-    * drużyna zawodnika i przeciwna mogą być takie same,
-* Odpowiedzi z serwera HTTP informują o użyciu przestażałych parametrów,
-* W przypadku generowania widoku dla smartfona pasek poleceń ładnie się chowa, jednak po obróceniu ekranu ta funkcja znika i nie można jej przywołać, to samo dotyczy zmiany rozmiaru okna przeglądarki,
-* Przeglądanie zawodników - wydruku informacji dla wybranych graczy wygląda inaczej niż niż w aplikacji - przypomina to widok z ekranu smartfona, zajmuje więcej miejsca niż tabelka na ekranie monitora.
+    * detects that the e-mail address is odd, but not that the phone number is too short,
+    * allows you to add a negative or too big number for height (e.g. 600cm), negative weight, a shirt colour that is a number, the player may be over a hundred years old, or be underage (even born right before the match),
+    * when adding a player's profile it is possible to add a name consisting of characters that are not allowed in names,
+    * it is possible to add 2 players with exactly the same data, the app does not detect that a profile already exists,
+    * several players have been added, but no matches have been assigned to them and no reports have been generated - players have not been saved despite positive feedback from the system,
+    * 'województwo' field is required to create a report, however it is not required in order to create a player,
+    * the date of birth and the date of match can be the same, we can add a match from the future or very distant past (e.g. 1920), the player may not be of legal age, he may also participate in the match before he was born, 
+    * a player may be assigned a position not meant for the pitch - a Witcher, a Jedi,
+* Adding a match - unlimited duration of match, we are able to add matches witch very long or negative duration,
+* Playing a match:
+    * when hovering over an icon, we not always recieve information about its name/purpose, 
+    * no time limit for a match, no synchronization which half is actually played with the timer, I can set a negative value,
+    * a corner kick is possible from any place on the pitch, the same for a goal, you can add several distant actions in a short period of time,
+    * you can specify a different match result in the report form and different number of goals scored on the map,
+* Language - some of the options - save, submit, clear, print - do not have their equivalent words in Polish, certain consequence is necessary,
+* Reports:
+    * in case of a match where the teams scored 2:1 we are able to assign all of the goals to out player - does the app distinguish between an own goal and a regular one? Still 100% efective...
+    * when generating a match report a duplicate is sometimes created, with no option to delete it, also, we can intentionally create several reports to a single match,
+    * the player's team and the opposing team can be the same,
+* Responses from the HTTP server inform about the use of deprecated parameters,
+* When generating a view for a smartphone, the sidebar works well and hides, but when the screen is rotated this function dissapeares, the same applies to changes in the window settings and its size,
+* Browsing players - the printout prepared for selected players looks different than in the app- it resembles the view from the smartphone screen, and it takes a lot more place than it needs.
 
 
 
