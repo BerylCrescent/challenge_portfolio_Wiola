@@ -127,7 +127,7 @@ The task file is avaliable on my Google Drive, [here is the direct link.](https:
 
 I also added a file for this task - a recording prepared while testing pick.eat.up app, related to TC_003. [The recording](https://drive.google.com/file/d/1bhCO6x7zo3i2B4BKfMmzD174OBfgGIft/view?usp=sharing) documents a bug (*actually, 2*) , and the steps I took to recreate it:
 * After clicking 'Sign out' the app takes us to the login screen just to log in again after a second -I did not interfere,
-* The navigation bar starts worsking in Polish, and after a while, after interacting with the screen, it changes the language to English (set from the beggining).
+* The navigation bar starts worsking in Polish, and after a while, after interacting with the screen, it changes the language to English (set from the beginning).
 
 
 # Task 3
