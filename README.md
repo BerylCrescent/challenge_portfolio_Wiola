@@ -132,6 +132,8 @@ I also added a file for this task - a recording prepared while testing pick.eat.
 
 # Task 3
 
+[Link to my Google Drive](https://drive.google.com/drive/folders/1ygTftTjnr1vXe973eaMe125gI1rTPbjw?usp=sharing), where I store documentation for this task.
+
 ## Subtask 2
 
 ## Subtask 3
