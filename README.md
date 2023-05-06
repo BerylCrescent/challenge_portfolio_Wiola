@@ -111,9 +111,10 @@ The task file is avaliable on my Google Drive, [here is the direct link.](https:
 
 ## Subtask 3
 
-Przypadki testowe pomagają uporządkować pracę przy tworzeniu aplikacji/oprogramowania. Po pierwsze, przekazują nam informację o tym jak ma być zaprojektowany dany element systemu oraz czy produkt w obecnym stadium rozwoju spełnia postawione przed nim wymagania. Po drugie, ich obecność pozwala wychwycić błędy, które mogły się wedrzeć do projektu, a każdy napisany przypadek testowy pokrywa kolejne obszary aplikacji pomagając tym samym odszukać je w odpowiednim czasie. 
+Test cases help organising work while developing an app or software. Their presence enables you to catch errors/bugs that could have made their way into the final project. Each written test case covers subsequent areas of the app, when properly formulated they will allow us to draw the right conclusions, thus enabling further development. Also, they provide us with information about how a given element of our system should be working, how it should be designed and whether the product at the current stage of development meets the requirements. 
 
-Moja pierwsza styczność z testowaniem to w zasadzie anegdota, którą usłyszałam na studiach. Dotyczyła przeprowadzanego przypadku testowego dla pewnej gry - __*'przez 8 godzin wsiadam i zsiadam z konia, za każdym razem postać trzyma w dłoni inną broń.'*__ Brzmi jak nudny banał... A jednak powtarzanie tej czynności pozwoli zewryfikować wiele elementów, między innymi znaleźć i naprawić ewentualne bugi, które mogłyby zepsuć nie tylko rozgrywkę, ale i reputację studia.
+My first contact with test cases is basically an anegdote I heard in college - a particular test case for a certain game - __*'I get on and off a horse for 8 hours, each time the character has a different weapon in his hand.'*__ Sounds like a boring cliché... And yet, repeating this action will verify many elements, including finding and fixing bugs that could spoil not only the gameplay, but also the studio's reputation.
+
 
 ## Subtask 4
 
@@ -123,9 +124,9 @@ The task file is avaliable on my Google Drive, [here is the direct link.](https:
 ! Attention !
 ```
 
-Do tego zadania został również zamieszczony plik - nagranie z pracy aplikacji pick.eat.up związane z TC_003. [Nagranie](https://drive.google.com/file/d/1bhCO6x7zo3i2B4BKfMmzD174OBfgGIft/view?usp=sharing) dokumentuje błąd, który zaobserwowałam (*właściwie, to 2 błędy, jak się później przypatrzyłam*) , oraz kroki, które wykonałam aby je odtworzyć:
-* Po kliknięciu 'Sign out' aplikacja przenosi nas na ekran logowania by po sekundzie samoczynnie zalogować się ponownie - nie było tu mojej ingerencji,
-* Dolny panel rozpoczyna pracę po Polsku, po chwili natomiast, po interakcji z ekranem, zmienia język na ustawiony w aplikacji Angielski.
+I also added a file for this task - a recording prepared while testing pick.eat.up app, related to TC_003. [The recording](https://drive.google.com/file/d/1bhCO6x7zo3i2B4BKfMmzD174OBfgGIft/view?usp=sharing) documenting a bug (*actually, 2 bugs*) , and the steps I took to recreate them:
+* After clicking 'Sign out' the app takes us to the login screen just to log in again after a second -I did not interfere,
+* the navigation bar starts worsking in Polish, and after a while, after interacting with the screen, it changes the language to English (set from the beggining).
 
 
 
