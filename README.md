@@ -4,6 +4,7 @@
 ### :point_right: Table of contents
 1. [Task 1](#task-1)
 2. [Task 2](#task-2)
+3. [Task 3](#task-3)
 <br>
 <br>
 
@@ -111,7 +112,7 @@ The task file is avaliable on my Google Drive, [here is the direct link.](https:
 
 ## Subtask 3
 
-Test cases help organising work while developing an app or software. Their presence enables you to catch errors/bugs that could have made their way into the final project. Each written test case covers subsequent areas of the app, when properly formulated they will allow us to draw the right conclusions, thus enabling further development. Also, they provide us with information about how a given element of our system should be working, how it should be designed and whether the product at the current stage of development meets the requirements. 
+Test cases help in organising work while developing an app or software. Their presence enables you to catch errors/bugs that could have made their way into the final project. Each written test case covers subsequent areas of the app, when properly formulated they will allow us to draw the right conclusions, thus enabling further development. Also, they provide us with information about how a given element of our system should be working, how it should be designed and whether the product at the current stage of development meets the requirements. 
 
 My first contact with test cases is basically an anegdote I heard in college - a particular test case for a certain game - __*'I get on and off a horse for 8 hours, each time the character has a different weapon in his hand.'*__ Sounds like a boring cliché... And yet, repeating this action will verify many elements, including finding and fixing bugs that could spoil not only the gameplay, but also the studio's reputation.
 
@@ -127,6 +128,15 @@ The task file is avaliable on my Google Drive, [here is the direct link.](https:
 I also added a file for this task - a recording prepared while testing pick.eat.up app, related to TC_003. [The recording](https://drive.google.com/file/d/1bhCO6x7zo3i2B4BKfMmzD174OBfgGIft/view?usp=sharing) documenting a bug (*actually, 2 bugs*) , and the steps I took to recreate them:
 * After clicking 'Sign out' the app takes us to the login screen just to log in again after a second -I did not interfere,
 * the navigation bar starts worsking in Polish, and after a while, after interacting with the screen, it changes the language to English (set from the beggining).
+
+
+# Task 3
+
+## Subtask 2
+
+## Subtask 3
+
+## Subtask 4
 
 
 
