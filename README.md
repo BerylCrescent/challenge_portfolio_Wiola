@@ -31,20 +31,20 @@ My name is Wiola. I decided to participate in this project because I need to det
 
 ## Subtask 4
 
-[Scouts Test](https://scouts-test.futbolkolektyw.pl/) is an app designed to create a profile of a soccer player, then, based on matches played by the player, reports are created. Each match can be evaluated in the report, which then translates into the player's average rating. Each player added to the app's database can be compared with other players. What's more, we are able to search for players based on specific characteristics - name, surname, age, main position, raiting, etc.
+[Scouts Test](https://scouts-test.futbolkolektyw.pl/) is an app designed to create a profile of a soccer player, then, based on matches played by the player, reports are created. Each match can be evaluated in the report, which then translates into the player's average rating. Each player added to the app's database can be compared with other players. What's more, we are able to search for players based on specific characteristics - name, surname, age, main position, rating, etc.
 
   
 
-Funcionalities:
-* Login to the app - it is used to access the features of the app - the apperance looks extremely simple, poor I should even say; apart from the name, there is no information about the app at which gates we are located, nor the welcome screen. Entering a valid login and password might lead me somewhere, but that's only my guess. Because they are required by the app, their absence results in denied access.
+Functionalities:
+* Login to the app - it is used to access the features of the app - the appearance looks extremely simple, poor I should even say; apart from the name, there is no information about the app at which gates we are located, nor the welcome screen. Entering a valid login and password might lead me somewhere, but that's only my guess. Because they are required by the app, their absence results in denied access.
 
-* Adding a new player - creates a profile for a new player, which includes his personal data, features and skills, enabling us to save his contact details and adding links to his social media profiles, YouTube films and other significant sites. Intuitive, although not protected against the user's ill will - more details on this topic avaliable in the error section. Personally, I believe that including information about past injuries or even adding a photo of the player would enrich the profile, as well as make the app's raw view a little more attractive.
+* Adding a new player - creates a profile for a new player, which includes his personal data, features and skills, enabling us to save his contact details and adding links to his social media profiles, YouTube films and other significant sites. Intuitive, although not protected against the user's ill will - more details on this topic available in the error section. Personally, I believe that including information about past injuries or even adding a photo of the player would enrich the profile, as well as make the app's raw view a little more attractive.
 
-* Matches - this option is avaliable after selecting a player, and contains a list of matches in which a player has participated. By using this panel we are able to create a report presenting the player's behaviour on the pitch. Intuitive, when it comes to adding a match. However, the pitch panel is a different story - not visible enough, less clear and enigmatic, also not protected against the user's ill will. For further details, see the error section.
+* Matches - this option is available after selecting a player, and contains a list of matches in which a player has participated. By using this panel we are able to create a report presenting the player's behaviour on the pitch. Intuitive, when it comes to adding a match. However, the pitch panel is a different story - not visible enough, less clear and enigmatic, also not protected against the user's ill will. For further details, see the error section.
 
-* Reports - this option is avaliable after selecting a player, and contains a list of reports saved for each player, which we can later modify depending on his actions on the pitch. Adding a report is intuitive, however the sheet is not, probably requires more knowledge on the subject. 
+* Reports - this option is available after selecting a player, and contains a list of reports saved for each player, which we can later modify depending on his actions on the pitch. Adding a report is intuitive, however the sheet is not, probably requires more knowledge on the subject. 
 
-* Players - contains a list of players saved in the app. Not all of the elements are intuitive - a panel appears in the header allowing us to search for information, the command is activated by pressing the Enter key, yet you cannot use the mouse button to proceed, because the magnifying glass icon does not respond. In response to the query, we recieve a list of records containing the searched word. I believe that the browser panel would work better with the option to manually select a page and  the number of records presented on it. Also, it would be useful for us to manually select the players we want to compare,
+* Players - contains a list of players saved in the app. Not all of the elements are intuitive - a panel appears in the header allowing us to search for information, the command is activated by pressing the Enter key, yet you cannot use the mouse button to proceed, because the magnifying glass icon does not respond. In response to the query, we receive a list of records containing the searched word. I believe that the browser panel would work better with the option to manually select a page and  the number of records presented on it. Also, it would be useful for us to manually select the players we want to compare,
 
 * Download CSV - generates a file with selected players. Intuitive. Although the file can be opened via Excel, it is hardly readable,
 
@@ -54,7 +54,7 @@ Funcionalities:
 
 * View columns - enables the user to choose which attributes are displayed. Intuitive,
 
-* Filter Table - works in a simillar way to the search panel, but is a better version of this function and not highlited enough. It additionally helps us to clarify which particular attribute are we interested in finding,
+* Filter Table - works in a similar way to the search panel, but is a better version of this function and not highlighted enough. It additionally helps us to clarify which particular attribute are we interested in finding,
 
 * Language - used to translate the app into Polish or English. Intuitive, however not all elements are translated to Polish, which should be improved,
 
@@ -64,9 +64,9 @@ Funcionalities:
 
 
 
-The interface is simple, not very thrilling, raw I should say. Navigating between the main options is not a problem, the app looks correct both on the computer screen and smartphone with some exeptions, but it does not elicit my sympathy. The app does not adapt to the default colour of my system or browser, it hurts my eyes when I use it for too long. I do not see options that would help visually impared people to use it, e.g. changing the size of letters or their contrast in relation to other elements on the page. Adding a player is possible only from the main page - this option is nowhere else to be found (although, by looking at the URL address I see where it should be). I would like to be able to use a panel, which will contain only those players, matches and reports added by me. Lack of this option suprises me, especially because it is easy to loose sight of all the changes that were made when many players are added or modified.  
+The interface is simple, not very thrilling, raw I should say. Navigating between the main options is not a problem, the app looks correct both on the computer screen and smartphone with some exceptions, but it does not elicit my sympathy. The app does not adapt to the default colour of my system or browser, it hurts my eyes when I use it for too long. I do not see options that would help visually impaired people to use it, e.g. changing the size of letters or their contrast in relation to other elements on the page. Adding a player is possible only from the main page - this option is nowhere else to be found (although, by looking at the URL address I see where it should be). I would like to be able to use a panel, which will contain only those players, matches and reports added by me. Lack of this option surprises me, especially because it is easy to loose sight of all the changes that were made when many players are added or modified.  
 
-The app is intuitive untill we reach the report creating menu. The avaliable options are not signed, and despite a seemingly simple message, it took me a moment or two to understand that it is necessary to start the timer, also, that we can change the time manually and jump to specific minutes in game. A short tutorial or FAQ would be most welcome. Search options in the player browsing panel appeared to me as poorly designed until I noticed the filter button - I believe it needs a coming out. 
+The app is intuitive until we reach the report creating menu. The available options are not signed, and despite a seemingly simple message, it took me a moment or two to understand that it is necessary to start the timer, also, that we can change the time manually and jump to specific minutes in game. A short tutorial or FAQ would be most welcome. Search options in the player browsing panel appeared to me as poorly designed until I noticed the filter button - I believe it needs a coming out. 
 
 
 Errors / irregularities, that caught my attention:
@@ -81,17 +81,17 @@ Errors / irregularities, that caught my attention:
     * a player may be assigned a position not meant for the pitch - a Witcher, a Jedi,
 * Adding a match - unlimited duration of match, we are able to add matches witch very long or negative duration,
 * Playing a match:
-    * when hovering over an icon, we not always recieve information about its name/purpose, 
+    * when hovering over an icon, we not always receive information about its name/purpose, 
     * no time limit for a match, no synchronization which half is actually played with the timer, I can set a negative value,
     * a corner kick is possible from any place on the pitch, the same for a goal, you can add several distant actions in a short period of time,
     * you can specify a different match result in the report form and different number of goals scored on the map,
 * Language - some of the options - save, submit, clear, print - do not have their equivalent words in Polish, certain consequence is necessary,
 * Reports:
-    * in case of a match where the teams scored 2:1 we are able to assign all of the goals to out player - does the app distinguish between an own goal and a regular one? Still 100% efective...
+    * in case of a match where the teams scored 2:1 we are able to assign all of the goals to out player - does the app distinguish between an own goal and a regular one? Still 100% effective...
     * when generating a match report a duplicate is sometimes created, with no option to delete it, also, we can intentionally create several reports to a single match,
     * the player's team and the opposing team can be the same,
 * Responses from the HTTP server inform about the use of deprecated parameters,
-* When generating a view for a smartphone, the sidebar works well and hides, but when the screen is rotated this function dissapeares, the same applies to changes in the window settings and its size,
+* When generating a view for a smartphone, the sidebar works well and hides, but when the screen is rotated this function disappeares, the same applies to changes in the window settings and its size,
 * Browsing players - the printout prepared for selected players looks different than in the app- it resembles the view from the smartphone screen, and it takes a lot more place than it needs.
 
 
@@ -103,23 +103,23 @@ Errors / irregularities, that caught my attention:
 
 ## Subtask 1
 
-The task file is avaliable on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1qcSn0Cj1NldS_lztPdzc3xv2Kka49Fbw/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet: for US_01 there are 3, and for US_02 I prepared 4. The ID consists of the User Story number and Test Case number, np. US_01_01. Feel free to use the table of contents for navigation.
+The task file is available on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1qcSn0Cj1NldS_lztPdzc3xv2Kka49Fbw/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet: for US_01 there are 3, and for US_02 I prepared 4. The ID consists of the User Story number and Test Case number, np. US_01_01. Feel free to use the table of contents for navigation.
 
 ## Subtask 2
 
-The task file is avaliable on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1rF0C0XI9mb8PAw-67_fDALD1EyknA0Jl/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet, and for this task I prepared 22. The ID consists of the TC shortcut and a sequential number, np. TC_001. Feel free to use the table of contents for navigation.
+The task file is available on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1rF0C0XI9mb8PAw-67_fDALD1EyknA0Jl/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet, and for this task I prepared 22. The ID consists of the TC shortcut and a sequential number, np. TC_001. Feel free to use the table of contents for navigation.
 
 
 ## Subtask 3
 
 Test cases help in organising work while developing an app or software. Their presence enables you to catch errors/bugs that could have made their way into the final project. Each written test case covers subsequent areas of the app, when properly formulated they will allow us to draw the right conclusions, thus enabling further development. Also, they provide us with information about how a given element of our system should be working, how it should be designed and whether the product at the current stage of development meets the requirements. 
 
-My first contact with test cases is basically an anegdote I heard in college - a particular test case for a certain game - __*'I get on and off a horse for 8 hours, each time the character has a different weapon in his hand.'*__ Sounds like a boring cliché... And yet, repeating this action will verify many elements, including finding and fixing bugs that could spoil not only the gameplay, but also the studio's reputation.
+My first contact with test cases is basically an anecdote I heard in college - a particular test case for a certain game - __*'I get on and off a horse for 8 hours, each time the character has a different weapon in his hand.'*__ Sounds like a boring cliché... And yet, repeating this action will verify many elements, including finding and fixing bugs that could spoil not only the gameplay, but also the studio's reputation.
 
 
 ## Subtask 4
 
-The task file is avaliable on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1ZhTASmDQJxGgv75x1_zy7pYDufsen0Ik/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet, and for this task I prepared 5. The ID consists of the TC shortcut and a sequential number, np. TC_001. Feel free to use the table of contents for navigation.
+The task file is available on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1ZhTASmDQJxGgv75x1_zy7pYDufsen0Ik/edit?usp=sharing&ouid=100493076818843703891&rtpof=true&sd=true) Each Test Case is a separate sheet, and for this task I prepared 5. The ID consists of the TC shortcut and a sequential number, np. TC_001. Feel free to use the table of contents for navigation.
 
 ```diff
 ! Attention !
@@ -127,7 +127,7 @@ The task file is avaliable on my Google Drive, [here is the direct link.](https:
 
 I also added a file for this task - a recording prepared while testing pick.eat.up app, related to TC_003. [The recording](https://drive.google.com/file/d/1bhCO6x7zo3i2B4BKfMmzD174OBfgGIft/view?usp=sharing) documents a bug (*actually, 2*) , and the steps I took to recreate it:
 * After clicking 'Sign out' the app takes us to the login screen just to log in again after a second -I did not interfere,
-* The navigation bar starts worsking in Polish, and after a while, after interacting with the screen, it changes the language to English (set from the beginning).
+* The navigation bar starts working in Polish, and after a while, after interacting with the screen, it changes the language to English (set from the beginning).
 
 
 # Task 3
