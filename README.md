@@ -8,7 +8,6 @@
 <br>
 <br>
 
-Translation in progress... almost there - please be patient
 
 ___
 
