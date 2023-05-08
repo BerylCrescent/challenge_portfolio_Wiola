@@ -135,9 +135,23 @@ I also added a file for this task - a recording prepared while testing pick.eat.
 
 ## Subtask 2
 
+The task file is available on my Google Drive:
+* here is the direct link for the first set of Test Cases,
+* here is the direct link for the second set of Test Cases.
+* and also Bug Reports
+
+
+The task was to run previously written Test Cases for the Scouts Test app, this time for an older version. 
+I must confess... Test Cases TC_003 and TC_004 were a bit modified by me. I've provided the data part with an additional value - for the 'Poprzedni klub' field - and changed a bit the first step. It was alluring. It called to me, and I truly believed it had to be done.
+
 ## Subtask 3
 
+The task file is available on my Google Drive, here is the direct link.
+The report is in the same file as Bug Reports
+
 ## Subtask 4
+
+Oh dear, do I have the time....? Hope so...
 
 
 
