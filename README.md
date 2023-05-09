@@ -151,7 +151,7 @@ The report is in the same file as Bug Reports, first sheet.
 
 ## Subtask 4
 
-Oh dear, do I have the time....? Hope so...
+I will participate in this subtask - this week I will send link to the file
 
 
 
