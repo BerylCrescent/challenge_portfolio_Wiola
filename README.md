@@ -136,9 +136,9 @@ I also added a file for this task - a recording prepared while testing pick.eat.
 ## Subtask 2
 
 The task file is available on my Google Drive:
-* here is the direct link for the first set of Test Cases,
-* here is the direct link for the second set of Test Cases.
-* and also Bug Reports
+* [here is the direct link](https://docs.google.com/spreadsheets/d/1-AYkNhLGZ5AoWEJO4eGAs5ImMgHG3Hn8/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true) for the first set of Test Cases,
+* [here is the direct link](https://docs.google.com/spreadsheets/d/1EgkgkhU6K02PZsNAel0lJvN9rpkxZtXX/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true) for the second set of Test Cases.
+* and also [Bug Reports](https://docs.google.com/spreadsheets/d/1vd4z9mM8MzV9GQR6afpK-wJp8_OUmU5I/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true)
 
 
 The task was to run previously written Test Cases for the Scouts Test app, this time for an older version. 
@@ -146,8 +146,8 @@ I must confess... Test Cases TC_003 and TC_004 were a bit modified by me. I've p
 
 ## Subtask 3
 
-The task file is available on my Google Drive, here is the direct link.
-The report is in the same file as Bug Reports
+The task file is available on my Google Drive, [here is the direct link](https://docs.google.com/spreadsheets/d/1vd4z9mM8MzV9GQR6afpK-wJp8_OUmU5I/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true).
+The report is in the same file as Bug Reports, first sheet.
 
 ## Subtask 4
 
