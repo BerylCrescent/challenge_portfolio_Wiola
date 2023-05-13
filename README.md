@@ -42,6 +42,7 @@ My name is Wiola. I decided to participate in this project because I need to det
   
 <details>
   <summary>Functionalities</summary>
+  <br>  
   
 * Login to the app - it is used to access the features of the app - the appearance looks extremely simple, poor I should even say; apart from the name, there is no information about the app at which gates we are located, nor the welcome screen. Entering a valid login and password might lead me somewhere, but that's only my guess. Because they are required by the app, their absence results in denied access.
 
@@ -80,6 +81,7 @@ The app is intuitive until we reach the report creating menu. The available opti
 
 <details>
   <summary>Errors / irregularities, that caught my attention</summary>
+ <br> 
   
 * Adding a new player:
     * detects that the e-mail address is odd, but not that the phone number is too short,
