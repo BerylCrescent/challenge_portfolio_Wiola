@@ -19,14 +19,20 @@ ___
 
 My test score = 9/10 points :+1:
 
+## Subtask 2
+
+- [x] Add a new repository to GitHub
+
 
 ## Subtask 3
+
+
 
 Hello, <br>
 My name is Wiola. I decided to participate in this project because I need to determine the direction in my personal advancement. Bothered by stagnation related mostly to lack of new opportunities in my current workplace, I wish to prepare myself for a deep dive into the unknown. I crave for new possibilities, and my creativity awaits the moment it can spread its wings. I expect that the course will prepare me for any upcoming challenges, but don't get me wrong... I know perfectly well that everything, every job, has it's very own bright and dark sides. Like they say, no risk no gain...
 
-
 *Wiola*
+
 
 
 ## Subtask 4
@@ -34,8 +40,9 @@ My name is Wiola. I decided to participate in this project because I need to det
 [Scouts Test](https://scouts-test.futbolkolektyw.pl/) is an app designed to create a profile of a soccer player, then, based on matches played by the player, reports are created. Each match can be evaluated in the report, which then translates into the player's average rating. Each player added to the app's database can be compared with other players. What's more, we are able to search for players based on specific characteristics - name, surname, age, main position, rating, etc.
 
   
-
-Functionalities:
+<details>
+  <summary>Functionalities</summary>
+  
 * Login to the app - it is used to access the features of the app - the appearance looks extremely simple, poor I should even say; apart from the name, there is no information about the app at which gates we are located, nor the welcome screen. Entering a valid login and password might lead me somewhere, but that's only my guess. Because they are required by the app, their absence results in denied access.
 
 * Adding a new player - creates a profile for a new player, which includes his personal data, features and skills, enabling us to save his contact details and adding links to his social media profiles, YouTube films and other significant sites. Intuitive, although not protected against the user's ill will - more details on this topic available in the error section. Personally, I believe that including information about past injuries or even adding a photo of the player would enrich the profile, as well as make the app's raw view a little more attractive.
@@ -61,15 +68,19 @@ Functionalities:
 * Sign out - used to exit the app - intuitive. Still, there are ways we can improve it, for example adding a popup message in case it was clicked unintentionally -  'Are you sure you want to leave us so soon?', happened to me not once, not twice...
 
 * Activity, Scouts Panel - panel, where you can see information about recently added players, matches, reports, modifications, where you have the ability to contact the dev team - intuitive, makes it easier to navigate within the recently added elements, without having to search for them manually.
+</details>
 
-
-
+<details>
+  <summary> Interface </summary>
+  <br>
 The interface is simple, not very thrilling, raw I should say. Navigating between the main options is not a problem, the app looks correct both on the computer screen and smartphone with some exceptions, but it does not elicit my sympathy. The app does not adapt to the default colour of my system or browser, it hurts my eyes when I use it for too long. I do not see options that would help visually impaired people to use it, e.g. changing the size of letters or their contrast in relation to other elements on the page. Adding a player is possible only from the main page - this option is nowhere else to be found (although, by looking at the URL address I see where it should be). I would like to be able to use a panel, which will contain only those players, matches and reports added by me. Lack of this option surprises me, especially because it is easy to loose sight of all the changes that were made when many players are added or modified.  
 
 The app is intuitive until we reach the report creating menu. The available options are not signed, and despite a seemingly simple message, it took me a moment or two to understand that it is necessary to start the timer, also, that we can change the time manually and jump to specific minutes in game. A short tutorial or FAQ would be most welcome. Search options in the player browsing panel appeared to me as poorly designed until I noticed the filter button - I believe it needs a coming out. 
+</details>
 
-
-Errors / irregularities, that caught my attention:
+<details>
+  <summary>Errors / irregularities, that caught my attention</summary>
+  
 * Adding a new player:
     * detects that the e-mail address is odd, but not that the phone number is too short,
     * allows you to add a negative or too big number for height (e.g. 600cm), negative weight, a shirt colour that is a number, the player may be over a hundred years old, or be underage (even born right before the match),
@@ -93,7 +104,7 @@ Errors / irregularities, that caught my attention:
 * Responses from the HTTP server inform about the use of deprecated parameters,
 * When generating a view for a smartphone, the sidebar works well and hides, but when the screen is rotated this function disappeares, the same applies to changes in the window settings and its size,
 * Browsing players - the printout prepared for selected players looks different than in the app- it resembles the view from the smartphone screen, and it takes a lot more place than it needs.
-
+</details>
 
 
 
@@ -134,6 +145,10 @@ I also added a file for this task - a recording prepared while testing pick.eat.
 
 [Link to my Google Drive](https://drive.google.com/drive/folders/1ygTftTjnr1vXe973eaMe125gI1rTPbjw?usp=sharing), where I store documentation for this task.
 
+## Subtask 1
+
+- [x] Create a template to report bugs
+
 ## Subtask 2
 
 The task file is available on my Google Drive:
@@ -159,6 +174,10 @@ I will participate in this subtask - this week I will send a link to the file
 # Task 4
 
 [Link to my Google Drive](https://drive.google.com/drive/folders/1nCRb0PtQLHZ6ZTjHS_Bk73_ct_sbwntE?usp=sharing), where I store documentation for this task.
+
+## Subtask 1
+
+- [x] Create a template to report bugs
 
 ## Subtask 2
 
