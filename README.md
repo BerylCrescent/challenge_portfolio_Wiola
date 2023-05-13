@@ -152,8 +152,9 @@ The report is in the same file as Bug Reports, first sheet.
 
 ## Subtask 4
 
-I will participate in this subtask - this week I will send link to the file
-
+```
+I will participate in this subtask - this week I will send a link to the file
+```
 
 # Task 4
 
