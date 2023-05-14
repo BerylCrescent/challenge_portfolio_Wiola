@@ -27,13 +27,11 @@ My test score = 9/10 points :+1:
 ## Subtask 3
 
 
-
 Hello, <br>
 My name is Wiola. I decided to participate in this project because I need to determine the direction in my personal advancement. Bothered by stagnation related mostly to lack of new opportunities in my current workplace, I wish to prepare myself for a deep dive into the unknown. I crave for new possibilities, and my creativity awaits the moment it can spread its wings. I expect that the course will prepare me for any upcoming challenges, but don't get me wrong... I know perfectly well that everything, every job, has it's very own bright and dark sides. Like they say, no risk no gain...
 
 *Wiola*
-
-
+<br>
 
 ## Subtask 4
 
@@ -184,9 +182,48 @@ I will participate in this subtask - this week I will send a link to the file
 
 ## Subtask 2
 
+The task file is avaliable on my Google Drive, [here is the direct link.](https://docs.google.com/spreadsheets/d/1NKE0xz5pL2klJwpJqtRpYH51nMtYMU4K/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true)
+
 ## Subtask 3
 
-##Subtask 4
+<details>
+  <summary>What is this app for? What is its purpose?</summary>
+  <br>
+OLX - ogłoszenia lokalne is an app imitating bulletin boards that used to be in every city. It works in a simillar way - users are able to bost and browse announcements from various sectors of life (although erotic announcements are rather rare here), from all over Poland, without leaving home. In addition to standard purchase/sale/exchange offers, the apps services are also related to the real estate sector, labor market, rental and charity. <br>
+  <br>
+By this app, the user is able to view or publish ads, equip them with photos and communicate with other users. There is an option to equip our account with a number of additional elements, such as a CV and a cover letter or payment details. Advertisements are equipped with an attribute that can be simply afeined as an expiry date - if no one is interested in the offer within a period of time, it goes to the archive. <br>
+  <br>
+As it enables contact with a huge group of customers, it is also used for marketing services - adverts intended for the users are interwinded between the announcements. Its main purpose is to provide services to the uers, including intermediation in all kinds of activities, the list of which is still growing. The app charges us for some of the services provided, for example when you would like to increase the visibility of the offer. These options allow the developers to profit financially and continue to support the app through updates. 
+</details>
+
+<details>
+  <summary>Who is to be the end user of this app?</summary>
+  <br>
+The end user of the app os an adult (or a person under the care of an adult) who, as a result of using the app, will purchase or exchange goods through it.
+</details>
+
+<details>
+  <summary>Do you find this app user friendly?</summary>
+  <br>
+During many years of its existence, the app has developed not only functional and user-friendly solutions in the field of its activity, but also an accessible and aestethic graphical interface that does ot scare the user with excess functions or complicated appearance.
+</details>
+
+<details>
+  <summary>How would you improve the app? What would you improve about it? Do you have an idea for an additional funcionality?</summary>
+  <br>
+When using older versions of the app, while browsing the items, I often accidentally changed the offer when I just wanted to view the photos, and now this option is no longer avaliable. I believe that its complete loquidation was not a good solution. Instead, I would add this option for the user to select, if he truly wants the app to work like this. Surely someone would appreciate this function. 
+  <br>
+I often help my friends while they look for real estates to buy in Poland, therefore I would like to be able to add the search scope based on the map - mark on it a point or an area that I am particulary interested in.
+  
+</details>
+
+<details>
+  <summary>What differences do you see between testing a web app and a native one?</summary>
+  <br>
+Testing web apps differs from testing native apps, mostly because in the latter the attention is paid to user-friendly navigation. An important role also plays the functional and spatial arrangements of objects. The native app has to be able to read our phone settings, use our network access and be prepared to take a photo or read our location and messages, depending on the situation and needs. We have to make sure that all phones resources are avaliable for the app, so that it won't crash when in use. Because native apps are designed for a specific system, testing requires the use of more devices.
+</details>
+
+## Subtask 4
 
 ```diff
 ! goJira
