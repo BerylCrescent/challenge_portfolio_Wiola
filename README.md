@@ -225,7 +225,8 @@ Testing web apps differs from testing native apps, mostly because in the latter 
 ## Subtask 4
 
 This task is avaliable on my Jira account, [here is the direct link.](https://innsmouth.atlassian.net/jira/software/projects/CHAL/boards/1/backlog?selectedIssue=CHAL-2)
-
+<br>
+I have more bugs recorded - [here is the direct link](https://drive.google.com/drive/folders/1RbiSlnYNpuFu0uLe_c8uBl-WdkFNE0IV?usp=share_link)
 
 
 
