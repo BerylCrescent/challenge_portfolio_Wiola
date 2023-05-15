@@ -218,7 +218,8 @@ I often help my friends while they look for real estates to buy in Poland, there
 <details>
   <summary>What differences do you see between testing a web app and a native one?</summary>
   <br>
-Testing web apps differs from testing native apps, mostly because in the latter the attention is paid to user-friendly navigation. An important role also plays the functional and spatial arrangements of objects. The native app has to be able to read our phone settings, use our network access and be prepared to take a photo or read our location and messages, depending on the situation and needs. We have to make sure that all phones resources are avaliable for the app, so that it won't crash when in use. Because native apps are designed for a specific system, testing requires the use of more devices.
+Testing web apps differs from testing native apps, mostly because in the latter the attention is paid to user-friendly navigation. An important role also plays the functional and spatial arrangements of objects. The native app has to be able to read our phone settings, use our network access and be prepared to take a photo or read our location and messages, depending on the situation and needs. We have to make sure that all phones resources are avaliable for the app, so that it won't crash when in use. Because native apps are designed for a specific system, testing requires the use of more devices. <br>
+  So far, I've noticed that when testing native apps it's much easier to find bugs - there are more of them and you need to spend less time to actually find any. 
 </details>
 
 ## Subtask 4
