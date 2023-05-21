@@ -232,7 +232,7 @@ I have more bugs recorded - [here is the direct link](https://drive.google.com/d
 
 # Task 5
 
-SQL Basics
+SQL part 1
 
 ## Subtask 1
 
