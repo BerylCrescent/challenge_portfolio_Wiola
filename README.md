@@ -236,65 +236,136 @@ SQL part 1
 
 ## Subtask 1
 
-Zapytania, których się nauczyłam
+Basic commands:
 
 ## Subtask 2
 
-- [ ] Konfiguracja środowiska i wgranie bazy danych
+- [x] Environment configuration and uploading the database
 
 ## Subtask 3
 
-My SQL homework
+My SQL homework 😸
 
 <details>
-  <summary> 👉 Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname. </summary>
+  <summary> 👉 Display the actors table in alphabetical order - sort by the surname column. </summary>
     <br>
-  ABC
+  
+  ```python
+  SELECT * FROM actors
+  ORDER BY surname;
+  ```
+  
+  ![A](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/b5ed470a-0846-486f-98ae-3f3edfbe4d71)
 </details>
 <details>
-  <summary> 👉 Wyświetl film, który powstał w 2019 roku. </summary>
+  <summary> 👉 Display a video, that was made in 2019. </summary>
     <br>
-  ABC
+  
+  ```python
+  SELECT * FROM movies
+  WHERE year_of_production = 2019;
+  ```
+   
+  ![B](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/958f99cb-90d6-4731-aa2b-4bbfdf23afe2)
+
 </details>
 <details>
- <summary> 👉 Wyświetl wszystkie filmy, które powstały między 1900 a 1999 rokiem. </summary>
+ <summary> 👉 Display all movies made between 1900 and 1999. </summary>
     <br>
-  ABC
+  
+  ```python
+  SELECT * FROM movies
+  WHERE year_of_production BETWEEN 1900 AND 1999;
+  ```
+  
+  ![C](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/a3841207-6572-4c04-902f-f8f3a484e100)
+
 </details>
 <details>
- <summary> 👉 Wyświetl jedynie tytuł i cenę filmów, które kosztują poniżej 7$. </summary>
+ <summary> 👉 Display only the title and price of movies that cost less than 7$. </summary>
     <br>
-  ABC
+  
+  ```python
+  SELECT title, price FROM movies
+  WHERE price < 7;
+  ```
+  
+ ![D](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/6174ec29-1ed8-433a-bf04-a7102ff7599b)
+ 
 </details>
 <details>
- <summary> 👉 Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN. </summary>
+ <summary> 👉 Use the logical AND operator to display actors with actor_id between 4-7 (4 and 7 should display). Do not use BETWEEN operator. </summary>
     <br>
-  ABC
+  
+  ```python
+  SELECT * FROM actors
+  WHERE actor_id >= 4 
+  AND actor_id <= 7;
+  ```  
+  
+  ![E](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/7aeccdbc-2c25-43e8-acbe-d286039c6f0a)
+
 </details>
 <details>
- <summary> 👉 Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny. </summary>
+ <summary> 👉 Display customers with id 2, 4, 6 and use logical condition for this. </summary>
     <br>
-  ABC
+  
+  ```python
+  SELECT * FROM customers
+  WHERE customer_id IN (2, 4, 6);
+  ```
+  
+  ![F](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/d945fc1c-89a8-4f7a-9794-092e02c1048b)
+
 </details>
 <details>
- <summary> 👉 Wyświetl klientów o id 1,3,5 wykorzystaj do tego operatora IN. </summary>
+ <summary> 👉 Display customers with id 1, 3, 5 and use IN operator. </summary>
    <br>
-  ABC 
+  
+  ```python
+  SELECT * FROM customers
+  WHERE customer_id IN (1, 3, 5);
+  ```
+  
+   ![G](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/90dfe448-a385-4eee-b9ab-999956fa01d2)
+
 </details>
 <details>
- <summary> 👉 Wyświetl dane wszystkich osób z tabeli 'actors', których imię zaczyna się od ciągu 'An'. </summary>
+ <summary> 👉 Display all people in the 'actors' table whose name starts with 'An'. </summary>
    <br>
-  ABC 
+  
+  ```python
+  SELECT * FROM actors
+  WHERE name LIKE 'An%';
+  ```
+   
+  ![H](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/f662a7f7-5b45-4143-8f2b-014089ce10fb)
+ 
 </details>
 <details>
- <summary> 👉 Wyświetl dane klienta, który nie ma podanego adresu e-mail. </summary>
+ <summary> 👉 Display details of a customer who does not have an e-mail address provided. </summary>
     <br>
-  ABC
+  
+  ```python
+  SELECT * FROM customers
+  WHERE email IS null;
+  ```
+    
+  ![I](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/71e13305-1ea4-4ac3-893e-08d72138558c)
+
 </details>
 <details>
-<summary> 👉 Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id. </summary>
+<summary> 👉 Display all movies priced over 9$ with movie_id between 2 and 8. </summary>
     <br>
-  ABC
+  
+  ```python
+  SELECT * FROM movies
+  WHERE price > 9
+  AND movie_id BETWEEN 2 AND 8;
+  ```
+  
+  ![J](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/33bb3787-9b1f-4f1f-a3dc-4eefbb691b15)
+
 </details>
 
 
