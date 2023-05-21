@@ -6,6 +6,7 @@
 2. [Task 2](#task-2)
 3. [Task 3](#task-3)
 4. [Task 4](#task-4)
+5. [Task 5](#task-5)
 <br>
 <br>
 
@@ -229,7 +230,72 @@ This task is avaliable on my Jira account, [here is the direct link.](https://in
 I have more bugs recorded - [here is the direct link](https://drive.google.com/drive/folders/1RbiSlnYNpuFu0uLe_c8uBl-WdkFNE0IV?usp=share_link)
 
 
+# Task 5
 
+SQL Basics
+
+## Subtask 1
+
+Zapytania, których się nauczyłam
+
+## Subtask 2
+
+- [ ] Konfiguracja środowiska i wgranie bazy danych
+
+## Subtask 3
+
+My SQL homework
+
+<details>
+  <summary> 👉 Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname. </summary>
+    <br>
+  ABC
+</details>
+<details>
+  <summary> 👉 Wyświetl film, który powstał w 2019 roku. </summary>
+    <br>
+  ABC
+</details>
+<details>
+ <summary> 👉 Wyświetl wszystkie filmy, które powstały między 1900 a 1999 rokiem. </summary>
+    <br>
+  ABC
+</details>
+<details>
+ <summary> 👉 Wyświetl jedynie tytuł i cenę filmów, które kosztują poniżej 7$. </summary>
+    <br>
+  ABC
+</details>
+<details>
+ <summary> 👉 Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN. </summary>
+    <br>
+  ABC
+</details>
+<details>
+ <summary> 👉 Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny. </summary>
+    <br>
+  ABC
+</details>
+<details>
+ <summary> 👉 Wyświetl klientów o id 1,3,5 wykorzystaj do tego operatora IN. </summary>
+   <br>
+  ABC 
+</details>
+<details>
+ <summary> 👉 Wyświetl dane wszystkich osób z tabeli 'actors', których imię zaczyna się od ciągu 'An'. </summary>
+   <br>
+  ABC 
+</details>
+<details>
+ <summary> 👉 Wyświetl dane klienta, który nie ma podanego adresu e-mail. </summary>
+    <br>
+  ABC
+</details>
+<details>
+<summary> 👉 Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id. </summary>
+    <br>
+  ABC
+</details>
 
 
 
