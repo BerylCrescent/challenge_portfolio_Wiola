@@ -238,7 +238,8 @@ SQL part 1
 
 Ladies and Gentelmen, I am proud to announce that now I know:
 ```python
-SELECT, FROM, DISTINCT, WHERE, AND, OR, NOT, ORDER BY, IS NULL, MIN, MAX, COUNT, AVG, SUM, LIKE, wildcards, IN, BETWEEN, AS, INSERT INTO, 
+SELECT, FROM, DISTINCT, WHERE, AND, OR, NOT, ORDER BY, IS NULL, MIN, MAX, COUNT, AVG, SUM, LIKE, 
+wildcards, IN, BETWEEN, AS, INSERT INTO, 
 ```
 Soon, there will be more.
 
