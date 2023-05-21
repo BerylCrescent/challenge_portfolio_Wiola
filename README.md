@@ -236,7 +236,11 @@ SQL part 1
 
 ## Subtask 1
 
-Basic commands:
+Ladies and Gentelmen, I am proud to announce that now I know:
+```python
+SELECT, FROM, DISTINCT, WHERE, AND, OR, NOT, ORDER BY, IS NULL, MIN, MAX, COUNT, AVG, SUM, LIKE, wildcards, IN, BETWEEN, AS, INSERT INTO, 
+```
+Soon, there will be more.
 
 ## Subtask 2
 
