@@ -7,6 +7,7 @@
 3. [Task 3](#task-3)
 4. [Task 4](#task-4)
 5. [Task 5](#task-5)
+6. [Task 6](#task-6)
 <br>
 <br>
 
@@ -373,8 +374,60 @@ My SQL homework 😸
 
 </details>
 
+# Task 6
 
+SQL part 2
+  
+## Subtask 1
 
+<details>
+<summary> 👉 Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd. </summary>
+  
+</details>
+<details>
+<summary> 👉 Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej. </summary>
+  
+</details>
+<details>
+<summary> 👉 Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com </summary>
+
+</details>
+<details>
+<summary> 👉 Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia). </summary>
+  
+</details>
+<details>
+<summary> 👉 W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag </summary>
+  
+</details>
+<details>
+<summary> 👉 Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały. </summary>
+  
+</details>
+<details>
+<summary> 👉 Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION) </summary>
+  
+</details>
+<details>
+<summary> 👉 Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie). </summary>
+  
+</details>
+<details>
+<summary> 👉 Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał. </summary>
+  
+</details>
+<details>
+<summary> 👉 A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa. </summary>
+  
+</details>
+  
+## Subtask 2
+  
+My test score = 15/15 points :+1:
+  
+## Subtask 3
+
+- [ ] Add a new repository to GitHub
 
 
 
