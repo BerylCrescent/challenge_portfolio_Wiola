@@ -381,44 +381,142 @@ SQL part 2
 ## Subtask 1
 
 <details>
-<summary> 👉 Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd. </summary>
+<summary> 👉 I made a mistake typing the name of Ania Miler - I typed Muler. Find and use a function that will correct my error. </summary>
+  <br>
   
-</details>
-<details>
-<summary> 👉 Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej. </summary>
+  ```python
+  UPDATE customers
+  SET surname = 'Miler'
+  WHERE surname = 'Muler';
+  ```
   
-</details>
-<details>
-<summary> 👉 Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com </summary>
+  ![A](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/3afbf0ce-1511-4515-86a4-d732add71833)
 
 </details>
 <details>
-<summary> 👉 Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia). </summary>
+<summary> 👉 I charged too much money from a customer who recently bought a video with id 4. Using the JOIN function, check the customer's name and email address. In order to write him a message about the mistake of a fantastic boss. </summary>
+<br>
   
+  ```python
+  SELECT sale.sale_date, cus.name, cus.email, mov.title
+  FROM customers AS cus
+  JOIN sale ON cus.customer_id = sale.customer_id
+  JOIN movies AS mov ON mov.movie_id = sale.movie_id
+  WHERE sale.movie_id = 4;
+  ```
+  
+  ![B](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/1efccf0e-1cdd-4354-87d9-051a212822f6)
+
 </details>
 <details>
-<summary> 👉 W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag </summary>
+<summary> 👉 Surely you've noticed that the seller forgot to enter the email address of a client, Patrycja. Fill this gap by typing: pati@mail.com </summary>
+<br>
   
+  ```python
+  UPDATE customers
+  SET email = 'pati@mail.com'
+  WHERE name = 'Patrycja';
+  
+  ```
+  
+  ![C](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/8598f5f1-089b-42c8-affe-308171d24503)
+
 </details>
 <details>
-<summary> 👉 Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały. </summary>
+<summary> 👉 For each purchase display the name and surname of customer, who made the rental and the title of the rented movie (use the INNER JOIN function for this, think which tables will be useful for you to complete the exercise) </summary>
+  <br>
   
+  ```python
+  SELECT cus.name, cus.surname, mov.title
+  FROM customers AS cus
+  INNER JOIN sale ON cus.customer_id = sale.customer_id
+  JOIN movies AS mov ON mov.movie_id = sale.movie_id
+  ```
+  
+  ![D](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/5ceea3d1-971c-4f9d-a247-4a27d3d4e6d3)
+
 </details>
 <details>
-<summary> 👉 Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION) </summary>
+<summary> 👉 In order to anonymise the data, you want to create pseudonyms for your customers. Add a column named 'pseudonym' to the customers table. Fill in the column, so that the nickname is made of the first two letters of the name and the last letter of the surname, e.g. Natalie Pilling → Nag </summary>
+  <br>
   
+  ```python
+  ALTER TABLE custmers
+  ADD pseudonym char(3);
+  
+  UPDATE customers 
+  SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname, 1));
+  ```
+  
+  ![E](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/9fd3ffc6-430a-4885-97f8-5ab3c529afaf)
+
 </details>
 <details>
-<summary> 👉 Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie). </summary>
+<summary> 👉 Display the titles of the purchased movies, display the table in such way, that the titles do not repeat.  </summary>
+  <br>
   
+  ```python
+  SELECT title, sale.sale_date FROM movies
+  JOIN sale ON sale.movie_id = movies.movie_id
+  GROUP BY title;
+  ```
+  
+  ![F](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/27a4adce-eb4e-4654-982a-4e439821da88)
+
 </details>
 <details>
-<summary> 👉 Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał. </summary>
+<summary> 👉 Display a common list of names of all actors and clients, and sort them alphabetically (use the UNION function). </summary>
+  <br>
   
+  ```python
+  SELECT name FROM actors
+  UNION
+  SELECT name FROM customers
+  ORDER BY name ASC;
+  ```
+  
+  ![G](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/803c53b2-fb77-4a55-af04-62093e5117d2)
+
 </details>
 <details>
-<summary> 👉 A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa. </summary>
+<summary> 👉 Inflation has taken over Poland, and our movie shop has also been affected by this problem. Increase the price of all movies made after 2000 by $2.50 (note, that the dollar is a default unit - don't use it anywhere). </summary>
+  <br>
   
+  ```python
+  UPDATE movies
+  SET price = price + 2.5
+  WHERE year_of_production > 2000;
+  ```
+  
+  ![H](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/bd7b3fcc-371f-4c0c-954f-5a6eea158639)
+
+</details>
+<details>
+<summary> 👉 Display the name and surname of the actor with id 4 and the title of the movie he starred in. </summary>
+  <br>
+  
+  ```python
+  SELECT actors.name, actors.surname, movies.title 
+  FROM actors
+  JOIN cast ON cast.actor_id = actors.actor_id
+  JOIN movies ON movies.movie_id = cast.movie_id
+  WHERE actors.actor_id = 4;
+  ```
+  
+  ![I](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/77490a1b-7f5d-40cc-95c5-d224e75c8c53)
+
+</details>
+<details>
+<summary> 👉 And where is our HONIA!? Add a new entry to the customers table, with customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com and pseudonym = Hoa. </summary>
+  <br>
+  
+  ```python
+  INSERT INTO customers
+  VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com' 'Hoa');
+  ```
+  
+  ![J](https://github.com/BerylCrescent/challenge_portfolio_Wiola/assets/128975245/a3af31b2-eccf-482a-84dc-bc3e28f8bde2)
+
 </details>
   
 ## Subtask 2
