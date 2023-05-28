@@ -525,7 +525,7 @@ My test score = 15/15 points :+1:
   
 ## Subtask 3
 
-- [ ] Add a new repository to GitHub
+- [X] Add a [new repository](https://github.com/BerylCrescent/Portfolio) to GitHub
 
 
 
