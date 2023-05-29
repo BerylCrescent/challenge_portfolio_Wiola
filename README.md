@@ -166,11 +166,6 @@ I must confess... Test Cases TC_003 and TC_004 were a bit modified by me. I've p
 The task file is available on my Google Drive, [here is the direct link](https://docs.google.com/spreadsheets/d/1vd4z9mM8MzV9GQR6afpK-wJp8_OUmU5I/edit?usp=share_link&ouid=100493076818843703891&rtpof=true&sd=true).
 The report is in the same file as Bug Reports, first sheet.
 
-## Subtask 4
-
-```
-I will participate in this subtask - although time is my sworn enemy...
-```
 
 # Task 4
 
