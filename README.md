@@ -8,6 +8,7 @@
 4. [Task 4](#task-4)
 5. [Task 5](#task-5)
 6. [Task 6](#task-6)
+7. [Feedback](#Feedback)
 <br>
 <br>
 
@@ -522,5 +523,7 @@ My test score = 15/15 points :+1:
 
 - [X] Add a [new repository](https://github.com/BerylCrescent/Portfolio) to GitHub
 
+# Feedback
 
+Individual [Feedback](https://dareit.notion.site/Individual-Feedback-for-QA-Zosta-Testerem-Manualnym-Wioletta-Rusiecka-39902ca38917471ea99ee76aac278431) for this challenge
 
